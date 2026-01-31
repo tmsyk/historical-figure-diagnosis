@@ -51,7 +51,7 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, class*="serif" {
+h1, h2, h3, h4, [class*="serif"] {
   font-family: var(--font-serif);
   font-weight: 700;
   letter-spacing: 0.05em;
