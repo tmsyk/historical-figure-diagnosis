@@ -7,7 +7,7 @@
 .progressBar {
     width: 100%;
     height: 8px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(128, 128, 128, 0.2);
     border-radius: 99px;
     margin-bottom: 2rem;
     overflow: hidden;
@@ -28,8 +28,9 @@
     border-radius: var(--radius-md);
     padding: 2rem;
     margin-bottom: 2rem;
+    /* Hard code text color to ensure contrast against glass background */
     color: var(--c-text-main);
-    /* Ensure text color is inherited properly */
+    transition: color 0.3s;
 }
 
 /* Question List */
@@ -54,6 +55,15 @@
     font-family: var(--font-serif);
 }
 
+/* In dark mode, primary color might be too dark for the glass background if glass is dark. 
+   Let's ensure it pops. */
+@media (prefers-color-scheme: dark) {
+    .questionText {
+        color: #ffd700;
+        /* Goldish for dark mode visibility */
+    }
+}
+
 .optionsGrid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -70,23 +80,37 @@
 .optionBtn {
     padding: 0.8rem;
     border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(100, 100, 100, 0.2);
+    background: rgba(255, 255, 255, 0.8);
+    /* Always light background for buttons by default */
     cursor: pointer;
     transition: all 0.2s;
     font-size: 0.9rem;
-    color: var(--c-text-main);
+    color: #333;
+    /* Always dark text on light button */
+}
+
+@media (prefers-color-scheme: dark) {
+    .optionBtn {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.3);
+        color: #e0e0e0;
+    }
+
+    .optionBtn:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
 }
 
 .optionBtn:hover {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 1);
     border-color: var(--c-accent);
 }
 
 .optionBtnSelected {
-    background: var(--c-primary);
-    color: white;
-    border-color: var(--c-primary);
+    background: var(--c-primary) !important;
+    color: white !important;
+    border-color: var(--c-primary) !important;
 }
 
 .actions {
