@@ -1,0 +1,139 @@
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.progressBar {
+    width: 100%;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 99px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.progressFill {
+    height: 100%;
+    background-color: var(--c-accent);
+    transition: width 0.5s ease-out;
+}
+
+.formPanel {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+    border-radius: var(--radius-md);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    color: var(--c-text-main);
+    /* Ensure text color is inherited properly */
+}
+
+/* Question List */
+.questionGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.questionItem {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.questionText {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--c-primary);
+    margin-bottom: 0.5rem;
+    font-family: var(--font-serif);
+}
+
+.optionsGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    .optionsGrid {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+}
+
+.optionBtn {
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+    color: var(--c-text-main);
+}
+
+.optionBtn:hover {
+    background: rgba(255, 255, 255, 0.8);
+    border-color: var(--c-accent);
+}
+
+.optionBtnSelected {
+    background: var(--c-primary);
+    color: white;
+    border-color: var(--c-primary);
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.nextBtn {
+    background: linear-gradient(135deg, var(--c-accent), #996515);
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(184, 134, 11, 0.3);
+    transition: transform 0.2s;
+}
+
+.nextBtn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.nextBtn:hover:not(:disabled) {
+    transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--c-primary);
+    padding: 4rem;
+    font-family: var(--font-serif);
+}
