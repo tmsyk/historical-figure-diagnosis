@@ -87,46 +87,52 @@ export function findBestMatches(input: UserInput, topN: number = -1): MatchResul
 /**
  * Find a "Partner" (Complementary Match).
  * Logic:
- * 1. Reasonable general compatibility (Similarity > 60% approx, distance < 0.4).
- * 2. Complements User's Weaknesses: High scores in areas where user is low.
+ * 1. Focus on filling "Weaknesses" (Talents < 5).
+ * 2. Search deeper into the list (not just top matches) to find someone who covers these weak spots.
+ * 3. But maintain some basic compatibility (don't pick a total opposite).
  */
 export function findPartner(input: UserInput, allMatches: MatchResult[]): MatchResult | null {
-    // 1. Identify User's Weaknesses (Talents < 6)
+    if (allMatches.length < 2) return null;
+
+    // 1. Identify User's Weaknesses
     const weakTalents = Object.entries(input.talents)
         .filter(([_, score]) => score < 6)
         .map(([key]) => key);
 
-    if (weakTalents.length === 0) {
-        // If user has no weaknesses, just pick the 2nd best overall match
-        return allMatches.length > 1 ? allMatches[1] : null;
-    }
+    // If perfectly balanced, just return 2nd best
+    if (weakTalents.length === 0) return allMatches[1];
 
-    // 2. Score candidates based on how well they fill these gaps
     let bestPartner: MatchResult | null = null;
     let maxComplementScore = -1;
 
-    // Only consider the top 50% of matches to ensure some basic compatibility
-    const candidates = allMatches.slice(0, Math.floor(allMatches.length / 2));
+    // Search top 30 candidates (to ensure some personality alignment)
+    const candidates = allMatches.slice(1, 31);
 
     for (const match of candidates) {
-        if (match.distance === 0) continue; // Skip self if perfect match (unlikely)
-
         let complementScore = 0;
         // @ts-ignore
         const figureTalents = match.figure.talents as Record<string, number>;
 
+        // Calculate how much they help with weaknesses
         weakTalents.forEach(talent => {
             const score = figureTalents[talent] || 5;
-            complementScore += score; // Higher is better
+            if (score >= 7) {
+                // Bonus for having high skill in user's weak area
+                complementScore += (score * 2);
+            }
         });
 
-        if (complementScore > maxComplementScore) {
-            maxComplementScore = complementScore;
+        // Penalize for being too distant (keep them somewhat relatable)
+        const distancePenalty = match.distance * 10;
+        const finalScore = complementScore - distancePenalty;
+
+        if (finalScore > maxComplementScore) {
+            maxComplementScore = finalScore;
             bestPartner = match;
         }
     }
 
-    return bestPartner || (allMatches.length > 1 ? allMatches[1] : null);
+    return bestPartner || allMatches[1];
 }
 
 /**

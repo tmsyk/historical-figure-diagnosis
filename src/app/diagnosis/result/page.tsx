@@ -180,7 +180,7 @@ export default function ResultPage() {
                     {/* Talent Radar */}
                     <div className="glass-panel p-8 fade-in flex flex-col items-center" style={{ animationDelay: '0.5s' }}>
                         <h3 className="text-xl font-bold mb-2 text-center border-b border-gray-200 pb-2 w-full">才能マップ</h3>
-                        <div className="w-full h-[400px] mt-4">
+                        <div style={{ width: '100%', height: '400px', marginTop: '1rem' }}>
                             <ResponsiveContainer width="100%" height="100%">
                                 <RadarChart cx="50%" cy="50%" outerRadius="70%" data={talentData}>
                                     <PolarGrid stroke="#e5e7eb" />
@@ -251,13 +251,9 @@ export default function ResultPage() {
                 {/* Footer / Careers */}
                 <div className="glass-panel p-8 fade-in mb-12 text-center" style={{ animationDelay: '0.6s' }}>
                     <h3 className="text-xl font-bold mb-6">あなたにおすすめの適職</h3>
-                    <div className="flex flex-wrap justify-center gap-3">
-                        {figure.suitable_careers.map((career, i) => (
-                            <span key={i} className="px-5 py-2 bg-white/40 border border-white/40 text-primary rounded-full shadow-sm font-bold text-sm hover:scale-105 transition-transform cursor-default">
-                                {career}
-                            </span>
-                        ))}
-                    </div>
+                    <p className="text-lg text-primary font-medium leading-loose">
+                        {figure.suitable_careers.join('、')}
+                    </p>
                 </div>
 
                 <div className="text-center fade-in" style={{ animationDelay: '0.8s' }}>
