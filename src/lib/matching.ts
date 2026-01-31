@@ -35,7 +35,7 @@ export interface MatchResult {
  *    - Talent match is complementary.
  * 2. Return sorted list of top matches.
  */
-export function findBestMatches(input: UserInput, topN: number = 3): MatchResult[] {
+export function findBestMatches(input: UserInput, topN: number = -1): MatchResult[] {
     const results = figures.map((figure) => {
         // 1. Personality Distance (4 axes)
         const pDist = calculateDistance(
@@ -78,7 +78,10 @@ export function findBestMatches(input: UserInput, topN: number = 3): MatchResult
     // Sort by smallest distance (highest similarity)
     results.sort((a, b) => a.distance - b.distance);
 
-    return results.slice(0, topN);
+    if (topN > 0) {
+        return results.slice(0, topN);
+    }
+    return results;
 }
 
 export function getAllCategories(): string[] {
