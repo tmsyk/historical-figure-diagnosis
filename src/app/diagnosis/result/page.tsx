@@ -12,6 +12,7 @@ export default function ResultPage() {
     const [userScores, setUserScores] = useState<UserInput | null>(null);
     const [partner, setPartner] = useState<MatchResult | null>(null);
     const [rival, setRival] = useState<MatchResult | null>(null);
+    const [allMatches, setAllMatches] = useState<MatchResult[]>([]);
 
     useEffect(() => {
         const data = localStorage.getItem("diagnosis_result");
@@ -26,6 +27,7 @@ export default function ResultPage() {
         const results = findBestMatches(input); // Now returns all by default
         if (results.length > 0) {
             setMatch(results[0]);
+            setAllMatches(results);
 
             // Advanced Compatibility Logic
             setPartner(findPartner(input, results));
