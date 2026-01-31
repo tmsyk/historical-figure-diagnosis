@@ -142,6 +142,22 @@ a {
   /* Ensure text inherits color */
 }
 
+.h-3 {
+  height: 0.75rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
 .btn-primary {
   display: inline-block;
   background: linear-gradient(135deg, var(--c-primary), #1e2a3d);

@@ -115,13 +115,13 @@ export default function ResultPage() {
                                 {figure.description}
                             </p>
 
-                            {/* Quote Layout Fix */}
-                            <div className="bg-primary/5 p-8 rounded-lg relative flex flex-col items-center justify-center min-h-[120px]">
-                                <span className="text-4xl text-primary font-serif opacity-30 absolute top-4 left-4">“</span>
-                                <p className="text-xl md:text-2xl font-serif text-center text-primary italic z-10 px-8 leading-relaxed">
+                            {/* Quote Layout Fix - Inline */}
+                            <div className="bg-primary/5 p-8 rounded-lg min-h-[120px] flex items-center justify-center">
+                                <p className="text-xl md:text-2xl font-serif text-center text-primary italic leading-relaxed">
+                                    <span className="text-3xl opacity-30 mr-2">“</span>
                                     {figure.quote}
+                                    <span className="text-3xl opacity-30 ml-2">”</span>
                                 </p>
-                                <span className="text-4xl text-primary font-serif opacity-30 absolute bottom-4 right-4">”</span>
                             </div>
                         </div>
                         <div className="flex flex-col gap-4 justify-center">
