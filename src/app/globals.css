@@ -2,12 +2,16 @@
   /* Premium Color Palette */
   --c-text-main: #2c2c2c;
   --c-text-muted: #666;
-  --c-background: #fdfcf8; /* Washi paper-like off-white */
+  --c-background: #fdfcf8;
+  /* Washi paper-like off-white */
   --c-background-soft: #f4f0ea;
-  --c-accent: #b8860b; /* Dark Goldenrod / Gold leaf */
+  --c-accent: #b8860b;
+  /* Dark Goldenrod / Gold leaf */
   --c-accent-hover: #cf9b1f;
-  --c-primary: #2a3b55; /* Kachikaho (Dark Indigo) - representing samurai/solidarity */
-  --c-secondary: #8b3a3a; /* Benigara (Red Ochre) - energy/leadership */
+  --c-primary: #2a3b55;
+  /* Kachikaho (Dark Indigo) - representing samurai/solidarity */
+  --c-secondary: #8b3a3a;
+  /* Benigara (Red Ochre) - energy/leadership */
 
   /* Glassmorphism */
   --glass-bg: rgba(255, 255, 255, 0.7);
@@ -18,7 +22,7 @@
   --radius-sm: 8px;
   --radius-md: 16px;
   --radius-lg: 24px;
-  
+
   /* Typography */
   --font-serif: "Yu Mincho", "Hiragino Mincho ProN", serif;
   --font-sans: "Inter", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
@@ -26,14 +30,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --c-text-main: #f0f0f0;
-    --c-text-muted: #aaa;
-    --c-background: #1a1a1a;
-    --c-background-soft: #252525;
-    --c-accent: #d4af37;
-    --c-primary: #4a5c7a;
-    --glass-bg: rgba(0, 0, 0, 0.6);
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --c-text-main: #f8f8f8;
+    --c-text-muted: #ccc;
+    --c-background: #0f0f0f;
+    --c-background-soft: #1a1a1a;
+    --c-accent: #ffd700;
+    --c-primary: #a0b4d4;
+    /* Lighter blue for dark mode visibility */
+    --glass-bg: rgba(30, 30, 30, 0.85);
+    /* Darker, less transparent background for legibility */
+    --glass-border: rgba(255, 255, 255, 0.2);
   }
 }
 
@@ -44,14 +50,18 @@
 }
 
 body {
-  color: --c-text-main;
+  color: var(--c-text-main);
   background: var(--c-background);
   font-family: var(--font-sans);
   line-height: 1.6;
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, [class*="serif"] {
+h1,
+h2,
+h3,
+h4,
+[class*="serif"] {
   font-family: var(--font-serif);
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -69,6 +79,58 @@ a {
   padding: 0 24px;
 }
 
+.text-primary {
+  color: var(--c-primary);
+}
+
+.text-accent {
+  color: var(--c-accent);
+}
+
+.text-muted {
+  color: var(--c-text-muted);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
 .glass-panel {
   background: var(--glass-bg);
   backdrop-filter: blur(12px);
@@ -76,6 +138,8 @@ a {
   border: 1px solid var(--glass-border);
   box-shadow: var(--glass-shadow);
   border-radius: var(--radius-md);
+  color: var(--c-text-main);
+  /* Ensure text inherits color */
 }
 
 .btn-primary {
@@ -110,8 +174,15 @@ a {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Background Texture */
@@ -122,7 +193,7 @@ a {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: 
+  background-image:
     radial-gradient(circle at 80% 10%, rgba(184, 134, 11, 0.05) 0%, transparent 40%),
     radial-gradient(circle at 20% 80%, rgba(42, 59, 85, 0.05) 0%, transparent 40%);
 }

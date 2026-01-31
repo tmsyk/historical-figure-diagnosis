@@ -60,26 +60,26 @@ export default function ResultPage() {
                 </div>
 
                 {/* Main Content Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
 
                     {/* Card: Profile */}
                     <div className="glass-panel p-8 fade-in" style={{ animationDelay: '0.2s' }}>
                         <h3 className="text-xl font-bold mb-4 border-b border-gray-200 pb-2">人物像</h3>
-                        <p className="leading-relaxed text-gray-700 mb-6 font-medium">
+                        <p className="leading-relaxed mb-6 font-medium">
                             {figure.description}
                         </p>
 
                         <div className="bg-primary/5 p-6 rounded-lg mb-6 relative">
-                            <span className="text-4xl text-primary/20 absolute top-2 left-2 font-serif">“</span>
+                            <span className="text-4xl text-primary absolute top-2 left-2 font-serif opacity-20">“</span>
                             <p className="text-xl font-serif text-center text-primary italic relative z-10 my-2">
                                 {figure.quote}
                             </p>
-                            <span className="text-4xl text-primary/20 absolute bottom-0 right-4 font-serif">”</span>
+                            <span className="text-4xl text-primary absolute bottom-0 right-4 font-serif opacity-20">”</span>
                         </div>
 
                         <div className="flex flex-wrap gap-2 mt-4">
-                            <span className="px-3 py-1 bg-gray-200 rounded-full text-xs font-bold text-gray-600">ERA: {figure.era}</span>
-                            <span className="px-3 py-1 bg-gray-200 rounded-full text-xs font-bold text-gray-600">MBTI: {figure.mbti_type}</span>
+                            <span className="px-3 py-1 bg-white/10 border border-white/20 rounded-full text-xs font-bold text-muted">ERA: {figure.era}</span>
+                            <span className="px-3 py-1 bg-white/10 border border-white/20 rounded-full text-xs font-bold text-muted">MBTI: {figure.mbti_type}</span>
                         </div>
                     </div>
 
@@ -90,10 +90,10 @@ export default function ResultPage() {
                             <ResponsiveContainer width="100%" height="100%">
                                 <RadarChart cx="50%" cy="50%" outerRadius="80%" data={chartData}>
                                     <PolarGrid stroke="#e5e7eb" />
-                                    <PolarAngleAxis dataKey="subject" tick={{ fill: '#666', fontSize: 12 }} />
+                                    <PolarAngleAxis dataKey="subject" tick={{ fill: 'var(--c-text-muted)', fontSize: 12 }} />
                                     <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
-                                    <Radar name="あなた" dataKey="A" stroke="#b8860b" fill="#b8860b" fillOpacity={0.4} />
-                                    <Radar name={figure.name_ja} dataKey="B" stroke="#2a3b55" fill="#2a3b55" fillOpacity={0.4} />
+                                    <Radar name="あなた" dataKey="A" stroke="var(--c-accent)" fill="var(--c-accent)" fillOpacity={0.4} />
+                                    <Radar name={figure.name_ja} dataKey="B" stroke="var(--c-primary)" fill="var(--c-primary)" fillOpacity={0.4} />
                                     <Legend />
                                 </RadarChart>
                             </ResponsiveContainer>
@@ -109,7 +109,7 @@ export default function ResultPage() {
                     <h3 className="text-xl font-bold mb-6 text-center">現代での適職</h3>
                     <div className="flex flex-wrap justify-center gap-4">
                         {figure.suitable_careers.map((career, i) => (
-                            <span key={i} className="px-6 py-3 bg-white border border-gray-200 rounded-lg shadow-sm font-bold text-primary">
+                            <span key={i} className="px-6 py-3 bg-white/20 border border-white/30 text-primary rounded-lg shadow-sm font-bold">
                                 {career}
                             </span>
                         ))}

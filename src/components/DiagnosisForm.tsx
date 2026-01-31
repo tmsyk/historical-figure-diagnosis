@@ -6,9 +6,9 @@ import { Question } from "./types_ui";
 import { UserInput, Personalities, Talents } from "../lib/types";
 import styles from "./DiagnosisForm.module.css";
 
-// Questions Definition (18 questions)
+// Questions Definition (28 questions)
 const QUESTIONS: Question[] = [
-    // --- Personality (MBTI Axes) ---
+    // --- Personality (MBTI Axes) - 8 questions ---
     { id: "p1", type: "personality", targetKey: "ei", direction: "positive", text: "パーティーや交流会では、自分から積極的に多くの人と話す方だ。" },
     { id: "p2", type: "personality", targetKey: "ei", direction: "negative", text: "一人の時間がないとストレスを感じる。" },
     { id: "p3", type: "personality", targetKey: "sn", direction: "positive", text: "具体的な事実よりも、将来の可能性やアイデアに惹かれる。" },
@@ -18,17 +18,37 @@ const QUESTIONS: Question[] = [
     { id: "p7", type: "personality", targetKey: "jp", direction: "positive", text: "計画通りに物事を進め、白黒はっきりさせたい。" },
     { id: "p8", type: "personality", targetKey: "jp", direction: "negative", text: "その場の状況に合わせて柔軟に対応するのが得意だ。" },
 
-    // --- Talents (10 Dimensions) ---
-    { id: "t1", type: "talent", targetKey: "strategic", direction: "positive", text: "複雑な問題に対して、最適な解決策やルートが瞬時に見える。" },
-    { id: "t2", type: "talent", targetKey: "ideation", direction: "positive", text: "全く関係なさそうな物事を結びつけて、新しいアイデアを出すのが得意だ。" },
-    { id: "t3", type: "talent", targetKey: "execution", direction: "positive", text: "一度決めた目標は、どんな障害があっても必ずやり遂げる。" },
-    { id: "t4", type: "talent", targetKey: "influence", direction: "positive", text: "自分の意見で人を動かし、チームをリードすることにやりがいを感じる。" },
-    { id: "t5", type: "talent", targetKey: "empathy", direction: "positive", text: "言葉にされない他人の感情や痛みを、自分のことのように感じ取れる。" },
-    { id: "t6", type: "talent", targetKey: "analysis", direction: "positive", text: "データや証拠に基づいて、冷静に原因を分析するのが好きだ。" },
-    { id: "t7", type: "talent", targetKey: "adaptability", direction: "positive", text: "急な予定変更やトラブルが起きても、動じずに対応できる。" },
-    { id: "t8", type: "talent", targetKey: "resilience", direction: "positive", text: "失敗や批判を受けても、すぐに立ち直り、それを糧にできる。" },
-    { id: "t9", type: "talent", targetKey: "visionary", direction: "positive", text: "数年〜数十年先の未来を具体的にイメージし、人に語ることができる。" },
-    { id: "t10", type: "talent", targetKey: "charisma", direction: "positive", text: "初対面の人でも、なぜか自分に好意を持ってくれることが多い。" },
+    // --- Talents (10 Dimensions) - 20 questions (2 per dimension for better accuracy) ---
+    // Strategic
+    { id: "t1a", type: "talent", targetKey: "strategic", direction: "positive", text: "複雑な問題に対して、最適な解決策やルートが瞬時に見える。" },
+    { id: "t1b", type: "talent", targetKey: "strategic", direction: "positive", text: "行き詰まった時でも、すぐに別の選択肢を思いつくことができる。" },
+    // Ideation
+    { id: "t2a", type: "talent", targetKey: "ideation", direction: "positive", text: "全く関係なさそうな物事を結びつけて、新しいアイデアを出すのが得意だ。" },
+    { id: "t2b", type: "talent", targetKey: "ideation", direction: "positive", text: "「もし〜だったら？」と考えることが多く、空想にふけるのが好きだ。" },
+    // Execution
+    { id: "t3a", type: "talent", targetKey: "execution", direction: "positive", text: "一度決めた目標は、どんな障害があっても必ずやり遂げる。" },
+    { id: "t3b", type: "talent", targetKey: "execution", direction: "positive", text: "ToDoリストを消化していくことに快感を覚える。" },
+    // Influence
+    { id: "t4a", type: "talent", targetKey: "influence", direction: "positive", text: "自分の意見で人を動かし、チームをリードすることにやりがいを感じる。" },
+    { id: "t4b", type: "talent", targetKey: "influence", direction: "positive", text: "場を支配し、主導権を握ることが自然とできる。" },
+    // Empathy
+    { id: "t5a", type: "talent", targetKey: "empathy", direction: "positive", text: "言葉にされない他人の感情や痛みを、自分のことのように感じ取れる。" },
+    { id: "t5b", type: "talent", targetKey: "empathy", direction: "positive", text: "困っている人がいると、放っておけない性格だ。" },
+    // Analysis
+    { id: "t6a", type: "talent", targetKey: "analysis", direction: "positive", text: "データや証拠に基づいて、冷静に原因を分析するのが好きだ。" },
+    { id: "t6b", type: "talent", targetKey: "analysis", direction: "positive", text: "「なぜ？」と問いかけ、物事の本質を突き詰めたくなる。" },
+    // Adaptability
+    { id: "t7a", type: "talent", targetKey: "adaptability", direction: "positive", text: "急な予定変更やトラブルが起きても、動じずに対応できる。" },
+    { id: "t7b", type: "talent", targetKey: "adaptability", direction: "positive", text: "先のことを悩みすぎず、「今」この瞬間を大切にしたい。" },
+    // Resilience
+    { id: "t8a", type: "talent", targetKey: "resilience", direction: "positive", text: "失敗や批判を受けても、すぐに立ち直り、それを糧にできる。" },
+    { id: "t8b", type: "talent", targetKey: "resilience", direction: "positive", text: "困難な状況であればあるほど、燃えるタイプだ。" },
+    // Visionary
+    { id: "t9a", type: "talent", targetKey: "visionary", direction: "positive", text: "数年〜数十年先の未来を具体的にイメージし、人に語ることができる。" },
+    { id: "t9b", type: "talent", targetKey: "visionary", direction: "positive", text: "目先の利益よりも、長期的な意義やビジョンを重視する。" },
+    // Charisma
+    { id: "t10a", type: "talent", targetKey: "charisma", direction: "positive", text: "初対面の人でも、なぜか自分に好意を持ってくれることが多い。" },
+    { id: "t10b", type: "talent", targetKey: "charisma", direction: "positive", text: "自分が楽しんでいると、周りの人も自然と笑顔になる。" },
 ];
 
 const ITEMS_PER_PAGE = 5;
@@ -95,8 +115,15 @@ export default function DiagnosisForm() {
                     counts[key]++;
                 }
             } else {
-                // @ts-ignore
-                talents[key] = value;
+                if (!counts[key]) {
+                    // @ts-ignore
+                    talents[key] = value;
+                    counts[key] = 1;
+                } else {
+                    // @ts-ignore
+                    talents[key] = (talents[key] * counts[key] + value) / (counts[key] + 1);
+                    counts[key]++;
+                }
             }
         });
 
