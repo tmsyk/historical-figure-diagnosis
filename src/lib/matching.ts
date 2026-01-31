@@ -84,6 +84,60 @@ export function findBestMatches(input: UserInput, topN: number = -1): MatchResul
     return results;
 }
 
+/**
+ * Find a "Partner" (Complementary Match).
+ * Logic:
+ * 1. Reasonable general compatibility (Similarity > 60% approx, distance < 0.4).
+ * 2. Complements User's Weaknesses: High scores in areas where user is low.
+ */
+export function findPartner(input: UserInput, allMatches: MatchResult[]): MatchResult | null {
+    // 1. Identify User's Weaknesses (Talents < 6)
+    const weakTalents = Object.entries(input.talents)
+        .filter(([_, score]) => score < 6)
+        .map(([key]) => key);
+
+    if (weakTalents.length === 0) {
+        // If user has no weaknesses, just pick the 2nd best overall match
+        return allMatches.length > 1 ? allMatches[1] : null;
+    }
+
+    // 2. Score candidates based on how well they fill these gaps
+    let bestPartner: MatchResult | null = null;
+    let maxComplementScore = -1;
+
+    // Only consider the top 50% of matches to ensure some basic compatibility
+    const candidates = allMatches.slice(0, Math.floor(allMatches.length / 2));
+
+    for (const match of candidates) {
+        if (match.distance === 0) continue; // Skip self if perfect match (unlikely)
+
+        let complementScore = 0;
+        // @ts-ignore
+        const figureTalents = match.figure.talents as Record<string, number>;
+
+        weakTalents.forEach(talent => {
+            const score = figureTalents[talent] || 5;
+            complementScore += score; // Higher is better
+        });
+
+        if (complementScore > maxComplementScore) {
+            maxComplementScore = complementScore;
+            bestPartner = match;
+        }
+    }
+
+    return bestPartner || (allMatches.length > 1 ? allMatches[1] : null);
+}
+
+/**
+ * Find a "Rival" (Opposite / Competitive).
+ * Logic: Use the furthest distance (lowest similarity).
+ */
+export function findRival(allMatches: MatchResult[]): MatchResult | null {
+    if (allMatches.length === 0) return null;
+    return allMatches[allMatches.length - 1];
+}
+
 export function getAllCategories(): string[] {
     return Array.from(new Set(figures.map(f => f.category)));
 }

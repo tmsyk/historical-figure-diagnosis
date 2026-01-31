@@ -3,13 +3,15 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { UserInput, HistoricalFigure } from "@/lib/types";
-import { findBestMatches, MatchResult } from "@/lib/matching";
+import { findBestMatches, findPartner, findRival, MatchResult } from "@/lib/matching";
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, Legend } from 'recharts';
 
 export default function ResultPage() {
     const router = useRouter();
     const [match, setMatch] = useState<MatchResult | null>(null);
     const [userScores, setUserScores] = useState<UserInput | null>(null);
+    const [partner, setPartner] = useState<MatchResult | null>(null);
+    const [rival, setRival] = useState<MatchResult | null>(null);
 
     useEffect(() => {
         const data = localStorage.getItem("diagnosis_result");
@@ -24,13 +26,14 @@ export default function ResultPage() {
         const results = findBestMatches(input); // Now returns all by default
         if (results.length > 0) {
             setMatch(results[0]);
-            setAllMatches(results);
+
+            // Advanced Compatibility Logic
+            setPartner(findPartner(input, results));
+            setRival(findRival(results));
         }
     }, [router]);
 
-    const [allMatches, setAllMatches] = useState<MatchResult[]>([]);
-
-    if (!match || !userScores || allMatches.length === 0) {
+    if (!match || !userScores) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-background text-primary animate-pulse">
                 <p className="text-xl font-serif">運命の相手を探しています...</p>
@@ -39,8 +42,6 @@ export default function ResultPage() {
     }
 
     const { figure } = match;
-    const partner = allMatches[1]; // 2nd best match
-    const rival = allMatches[allMatches.length - 1]; // Least similar (Furthest)
 
     // Prepare Chart Data
     // 1. Talents - Full 10 axes Radar Chart
@@ -223,6 +224,26 @@ export default function ResultPage() {
                             <p className="text-sm opacity-80 line-clamp-2">{rival.figure.description}</p>
                         </div>
                     )}
+                </div>
+
+                {/* Next Closest Matches (2nd & 3rd) */}
+                <div className="glass-panel p-8 fade-in mb-12" style={{ animationDelay: '0.7s' }}>
+                    <h3 className="text-xl font-bold mb-6 text-center border-b border-gray-200 pb-2">他に相性の良い偉人</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {allMatches.slice(1, 3).map((m, i) => (
+                            <div key={m.figure.id} className="flex items-center gap-4 p-4 bg-white/40 rounded-lg shadow-sm">
+                                <div className="text-2xl font-bold text-accent opacity-50">#{i + 2}</div>
+                                <div>
+                                    <h4 className="font-bold text-lg text-primary">{m.figure.name_ja}</h4>
+                                    <div className="flex items-center gap-2 text-sm text-muted">
+                                        <span>共鳴度: <span className="font-bold text-accent">{m.similarityScore}%</span></span>
+                                        <span>•</span>
+                                        <span>{m.figure.title}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
                 {/* Footer / Careers */}
