@@ -20,13 +20,17 @@ export default function ResultPage() {
         const input: UserInput = JSON.parse(data);
         setUserScores(input);
 
-        const results = findBestMatches(input);
+        // Get all matches to find Partner and Rival
+        const results = findBestMatches(input); // Now returns all by default
         if (results.length > 0) {
             setMatch(results[0]);
+            setAllMatches(results);
         }
     }, [router]);
 
-    if (!match || !userScores) {
+    const [allMatches, setAllMatches] = useState<MatchResult[]>([]);
+
+    if (!match || !userScores || allMatches.length === 0) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-background text-primary animate-pulse">
                 <p className="text-xl font-serif">運命の相手を探しています...</p>
@@ -35,6 +39,8 @@ export default function ResultPage() {
     }
 
     const { figure } = match;
+    const partner = allMatches[1]; // 2nd best match
+    const rival = allMatches[allMatches.length - 1]; // Least similar (Furthest)
 
     // Prepare Chart Data
     // 1. Talents - Full 10 axes Radar Chart
@@ -54,36 +60,32 @@ export default function ResultPage() {
     // Helper for Personality Spectrum
     const PersonalityBar = ({ labelL, labelR, valA, valB }: { labelL: string, labelR: string, valA: number, valB: number }) => {
         // Normalize 0-10 to percentage 0-100%
-        const posA = valA * 10;
-        const posB = valB * 10;
+        const posA = Math.min(100, Math.max(0, valA * 10));
+        const posB = Math.min(100, Math.max(0, valB * 10));
 
         return (
-            <div className="mb-6">
+            <div className="mb-6 last:mb-0">
                 <div className="flex justify-between text-xs font-bold text-muted mb-2">
                     <span>{labelL}</span>
                     <span>{labelR}</span>
                 </div>
-                <div className="relative h-4 bg-gray-200 rounded-full w-full">
+                <div className="relative h-3 bg-gray-200 rounded-full w-full">
                     {/* Center Marker */}
                     <div className="absolute left-1/2 top-0 bottom-0 w-[1px] bg-gray-300 transform -translate-x-1/2" />
 
                     {/* User Marker */}
                     <div
-                        className="absolute top-1/2 w-4 h-4 bg-accent rounded-full border-2 border-white shadow-md transform -translate-y-1/2 -translate-x-1/2 transition-all duration-1000"
+                        className="absolute top-1/2 w-4 h-4 bg-accent rounded-full border-2 border-white shadow-md transform -translate-y-1/2 -translate-x-1/2 z-20"
                         style={{ left: `${posA}%` }}
                         title="あなた"
                     />
 
                     {/* Figure Marker */}
                     <div
-                        className="absolute top-1/2 w-4 h-4 bg-primary rounded-full border-2 border-white shadow-md transform -translate-y-1/2 -translate-x-1/2 transition-all duration-1000"
+                        className="absolute top-1/2 w-4 h-4 bg-primary rounded-full border-2 border-white shadow-md transform -translate-y-1/2 -translate-x-1/2 z-10"
                         style={{ left: `${posB}%` }}
                         title={figure.name_ja}
                     />
-                </div>
-                <div className="flex justify-between text-[10px] text-muted mt-1 px-1">
-                    <span className="text-accent font-bold">You</span>
-                    <span className="text-primary font-bold">{figure.name_ja}</span>
                 </div>
             </div>
         );
@@ -106,15 +108,17 @@ export default function ResultPage() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="md:col-span-2">
                             <h3 className="text-xl font-bold mb-4 border-b border-gray-200 pb-2">人物像</h3>
-                            <p className="leading-relaxed mb-6 font-medium text-lg">
+                            <p className="leading-relaxed mb-8 font-medium text-lg">
                                 {figure.description}
                             </p>
-                            <div className="bg-primary/5 p-6 rounded-lg relative">
-                                <span className="text-4xl text-primary absolute top-2 left-2 font-serif opacity-20">“</span>
-                                <p className="text-xl font-serif text-center text-primary italic relative z-10 my-2">
+
+                            {/* Quote Layout Fix */}
+                            <div className="bg-primary/5 p-8 rounded-lg relative flex flex-col items-center justify-center min-h-[120px]">
+                                <span className="text-4xl text-primary font-serif opacity-30 absolute top-4 left-4">“</span>
+                                <p className="text-xl md:text-2xl font-serif text-center text-primary italic z-10 px-8 leading-relaxed">
                                     {figure.quote}
                                 </p>
-                                <span className="text-4xl text-primary absolute bottom-0 right-4 font-serif opacity-20">”</span>
+                                <span className="text-4xl text-primary font-serif opacity-30 absolute bottom-4 right-4">”</span>
                             </div>
                         </div>
                         <div className="flex flex-col gap-4 justify-center">
@@ -138,9 +142,9 @@ export default function ResultPage() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
 
                     {/* Personality Spectrum */}
-                    <div className="glass-panel p-8 fade-in" style={{ animationDelay: '0.4s' }}>
-                        <h3 className="text-xl font-bold mb-6 text-center border-b border-gray-200 pb-2">性格特性の比較</h3>
-                        <div className="space-y-4">
+                    <div className="glass-panel p-8 fade-in flex flex-col" style={{ animationDelay: '0.4s' }}>
+                        <h3 className="text-xl font-bold mb-8 text-center border-b border-gray-200 pb-2">性格特性の比較</h3>
+                        <div className="space-y-8 flex-grow justify-center flex flex-col">
                             <PersonalityBar
                                 labelL="内向的 (I)" labelR="外向的 (E)"
                                 valA={userScores.personalities.ei} valB={figure.personalities.ei}
@@ -158,37 +162,75 @@ export default function ResultPage() {
                                 valA={userScores.personalities.jp} valB={figure.personalities.jp}
                             />
                         </div>
-                        <p className="text-xs text-muted mt-4 text-center">
-                            <span className="inline-block w-3 h-3 bg-accent rounded-full mr-1"></span>あなた
-                            <span className="inline-block w-3 h-3 bg-primary rounded-full ml-4 mr-1"></span>{figure.name_ja}
-                        </p>
+                        <div className="flex justify-center gap-6 text-sm text-muted mt-8">
+                            <div className="flex items-center gap-2">
+                                <span className="block w-3 h-3 bg-accent rounded-full border border-white shadow-sm"></span>
+                                <span>あなた</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <span className="block w-3 h-3 bg-primary rounded-full border border-white shadow-sm"></span>
+                                <span>{figure.name_ja}</span>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Talent Radar */}
-                    <div className="glass-panel p-8 fade-in flex flex-col items-center justify-center" style={{ animationDelay: '0.5s' }}>
+                    <div className="glass-panel p-8 fade-in flex flex-col items-center" style={{ animationDelay: '0.5s' }}>
                         <h3 className="text-xl font-bold mb-2 text-center border-b border-gray-200 pb-2 w-full">才能マップ</h3>
-                        <div className="w-full h-[350px]">
+                        <div className="w-full h-[400px] mt-4">
                             <ResponsiveContainer width="100%" height="100%">
-                                <RadarChart cx="50%" cy="50%" outerRadius="75%" data={talentData}>
+                                <RadarChart cx="50%" cy="50%" outerRadius="70%" data={talentData}>
                                     <PolarGrid stroke="#e5e7eb" />
                                     <PolarAngleAxis dataKey="subject" tick={{ fill: 'var(--c-text-muted)', fontSize: 11 }} />
                                     <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
                                     <Radar name="あなた" dataKey="A" stroke="var(--c-accent)" fill="var(--c-accent)" fillOpacity={0.5} />
                                     <Radar name={figure.name_ja} dataKey="B" stroke="var(--c-primary)" fill="var(--c-primary)" fillOpacity={0.3} />
-                                    <Legend />
+                                    <Legend wrapperStyle={{ paddingTop: '20px' }} />
                                 </RadarChart>
                             </ResponsiveContainer>
                         </div>
                     </div>
+                </div>
 
+                {/* Partner & Rival Section */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    {partner && (
+                        <div className="glass-panel p-6 fade-in border-l-4 border-l-accent" style={{ animationDelay: '0.5s' }}>
+                            <div className="flex items-start justify-between mb-4">
+                                <div>
+                                    <span className="text-xs font-bold text-accent uppercase tracking-wider">Business Partner</span>
+                                    <h3 className="text-lg font-bold">最高の相棒</h3>
+                                </div>
+                                <span className="text-2xl font-serif">🤝</span>
+                            </div>
+                            <p className="text-xl font-serif font-bold text-primary mb-1">{partner.figure.name_ja}</p>
+                            <p className="text-sm text-muted mb-3">{partner.figure.title}</p>
+                            <p className="text-sm opacity-80 line-clamp-2">{partner.figure.description}</p>
+                        </div>
+                    )}
+
+                    {rival && (
+                        <div className="glass-panel p-6 fade-in border-l-4 border-l-secondary" style={{ animationDelay: '0.6s' }}>
+                            <div className="flex items-start justify-between mb-4">
+                                <div>
+                                    <span className="text-xs font-bold text-secondary uppercase tracking-wider">Rival</span>
+                                    <h3 className="text-lg font-bold">手強いライバル</h3>
+                                </div>
+                                <span className="text-2xl font-serif">⚡️</span>
+                            </div>
+                            <p className="text-xl font-serif font-bold text-primary mb-1">{rival.figure.name_ja}</p>
+                            <p className="text-sm text-muted mb-3">{rival.figure.title}</p>
+                            <p className="text-sm opacity-80 line-clamp-2">{rival.figure.description}</p>
+                        </div>
+                    )}
                 </div>
 
                 {/* Footer / Careers */}
-                <div className="glass-panel p-8 fade-in mb-12" style={{ animationDelay: '0.6s' }}>
-                    <h3 className="text-xl font-bold mb-6 text-center">あなたにおすすめの適職</h3>
-                    <div className="flex flex-wrap justify-center gap-4">
+                <div className="glass-panel p-8 fade-in mb-12 text-center" style={{ animationDelay: '0.6s' }}>
+                    <h3 className="text-xl font-bold mb-6">あなたにおすすめの適職</h3>
+                    <div className="flex flex-wrap justify-center gap-3">
                         {figure.suitable_careers.map((career, i) => (
-                            <span key={i} className="px-6 py-3 bg-white/20 border border-white/30 text-primary rounded-lg shadow-sm font-bold hover:scale-105 transition-transform cursor-default">
+                            <span key={i} className="px-5 py-2 bg-white/40 border border-white/40 text-primary rounded-full shadow-sm font-bold text-sm hover:scale-105 transition-transform cursor-default">
                                 {career}
                             </span>
                         ))}
