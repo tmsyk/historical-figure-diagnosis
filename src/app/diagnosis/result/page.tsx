@@ -1,9 +1,8 @@
-"use client";
-
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { UserInput, HistoricalFigure } from "@/lib/types";
 import { findBestMatches, findPartner, findRival, MatchResult } from "@/lib/matching";
+import { getRecommendedSkills } from "@/lib/skillMapping"; // Import added
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, Legend } from 'recharts';
 
 export default function ResultPage() {
@@ -13,8 +12,14 @@ export default function ResultPage() {
     const [partner, setPartner] = useState<MatchResult | null>(null);
     const [rival, setRival] = useState<MatchResult | null>(null);
     const [allMatches, setAllMatches] = useState<MatchResult[]>([]);
+    const [shareUrl, setShareUrl] = useState('');
 
     useEffect(() => {
+        // Client-side URL safely
+        if (typeof window !== 'undefined') {
+            setShareUrl(window.location.href);
+        }
+
         const data = localStorage.getItem("diagnosis_result");
         if (!data) {
             router.push("/");
@@ -24,7 +29,7 @@ export default function ResultPage() {
         setUserScores(input);
 
         // Get all matches to find Partner and Rival
-        const results = findBestMatches(input); // Now returns all by default
+        const results = findBestMatches(input);
         if (results.length > 0) {
             setMatch(results[0]);
             setAllMatches(results);
@@ -44,9 +49,11 @@ export default function ResultPage() {
     }
 
     const { figure } = match;
+    const skills = getRecommendedSkills(figure.talents);
+    const shareText = `私の魂の偉人は【${figure.name_ja}】でした！あなたも診断してみよう。 #歴史的偉人診断`;
 
-    // Prepare Chart Data
-    // 1. Talents - Full 10 axes Radar Chart
+    // Prepare Chart Data... (omitted lines unchanged)
+    // 1. Talents
     const talentData = [
         { subject: '戦略性', A: userScores.talents.strategic * 10, B: figure.talents.strategic * 10, fullMark: 100 },
         { subject: '着想', A: userScores.talents.ideation * 10, B: figure.talents.ideation * 10, fullMark: 100 },
@@ -60,9 +67,8 @@ export default function ResultPage() {
         { subject: 'カリスマ', A: userScores.talents.charisma * 10, B: figure.talents.charisma * 10, fullMark: 100 },
     ];
 
-    // Helper for Personality Spectrum
+    // Helper for Personality Spectrum... (omitted)
     const PersonalityBar = ({ labelL, labelR, valA, valB }: { labelL: string, labelR: string, valA: number, valB: number }) => {
-        // Normalize 0-10 to percentage 0-100%
         const posA = Math.min(100, Math.max(0, valA * 10));
         const posB = Math.min(100, Math.max(0, valB * 10));
 
@@ -73,22 +79,9 @@ export default function ResultPage() {
                     <span>{labelR}</span>
                 </div>
                 <div className="relative h-3 bg-gray-200 rounded-full w-full">
-                    {/* Center Marker */}
                     <div className="absolute left-1/2 top-0 bottom-0 w-[1px] bg-gray-300 transform -translate-x-1/2" />
-
-                    {/* User Marker */}
-                    <div
-                        className="absolute top-1/2 w-4 h-4 bg-accent rounded-full border-2 border-white shadow-md transform -translate-y-1/2 -translate-x-1/2 z-20"
-                        style={{ left: `${posA}%` }}
-                        title="あなた"
-                    />
-
-                    {/* Figure Marker */}
-                    <div
-                        className="absolute top-1/2 w-4 h-4 bg-primary rounded-full border-2 border-white shadow-md transform -translate-y-1/2 -translate-x-1/2 z-10"
-                        style={{ left: `${posB}%` }}
-                        title={figure.name_ja}
-                    />
+                    <div className="absolute top-1/2 w-4 h-4 bg-accent rounded-full border-2 border-white shadow-md transform -translate-y-1/2 -translate-x-1/2 z-20" style={{ left: `${posA}%` }} title="あなた" />
+                    <div className="absolute top-1/2 w-4 h-4 bg-primary rounded-full border-2 border-white shadow-md transform -translate-y-1/2 -translate-x-1/2 z-10" style={{ left: `${posB}%` }} title={figure.name_ja} />
                 </div>
             </div>
         );
@@ -111,9 +104,7 @@ export default function ResultPage() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="md:col-span-2">
                             <h3 className="text-xl font-bold mb-4 border-b border-gray-200 pb-2">人物像</h3>
-                            <p className="leading-relaxed mb-8 font-medium text-lg">
-                                {figure.description}
-                            </p>
+                            <p className="leading-relaxed mb-8 font-medium text-lg">{figure.description}</p>
 
                             {/* Quote Layout Fix - Inline */}
                             <div className="bg-primary/5 p-8 rounded-lg min-h-[120px] flex items-center justify-center">
@@ -143,27 +134,14 @@ export default function ResultPage() {
 
                 {/* Analysis Grid */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-
                     {/* Personality Spectrum */}
                     <div className="glass-panel p-8 fade-in flex flex-col" style={{ animationDelay: '0.4s' }}>
                         <h3 className="text-xl font-bold mb-8 text-center border-b border-gray-200 pb-2">性格特性の比較</h3>
                         <div className="space-y-8 flex-grow justify-center flex flex-col">
-                            <PersonalityBar
-                                labelL="内向的 (I)" labelR="外向的 (E)"
-                                valA={userScores.personalities.ei} valB={figure.personalities.ei}
-                            />
-                            <PersonalityBar
-                                labelL="直感的 (N)" labelR="感覚的 (S)"
-                                valA={userScores.personalities.sn} valB={figure.personalities.sn}
-                            />
-                            <PersonalityBar
-                                labelL="論理的 (T)" labelR="感情的 (F)"
-                                valA={userScores.personalities.tf} valB={figure.personalities.tf}
-                            />
-                            <PersonalityBar
-                                labelL="柔軟 (P)" labelR="几帳面 (J)"
-                                valA={userScores.personalities.jp} valB={figure.personalities.jp}
-                            />
+                            <PersonalityBar labelL="内向的 (I)" labelR="外向的 (E)" valA={userScores.personalities.ei} valB={figure.personalities.ei} />
+                            <PersonalityBar labelL="直感的 (N)" labelR="感覚的 (S)" valA={userScores.personalities.sn} valB={figure.personalities.sn} />
+                            <PersonalityBar labelL="論理的 (T)" labelR="感情的 (F)" valA={userScores.personalities.tf} valB={figure.personalities.tf} />
+                            <PersonalityBar labelL="柔軟 (P)" labelR="几帳面 (J)" valA={userScores.personalities.jp} valB={figure.personalities.jp} />
                         </div>
                         <div className="flex justify-center gap-6 text-sm text-muted mt-8">
                             <div className="flex items-center gap-2">
@@ -248,6 +226,19 @@ export default function ResultPage() {
                     </div>
                 </div>
 
+                {/* Skills to Learn (NEW) */}
+                <div className="glass-panel p-8 fade-in mb-12" style={{ animationDelay: '0.8s' }}>
+                    <h3 className="text-xl font-bold mb-6 text-center border-b border-gray-200 pb-2">これから学ぶべきスキル</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {skills.map((skill, i) => (
+                            <div key={i} className="flex items-center gap-3 p-3 bg-white/40 rounded-lg">
+                                <span className="text-accent text-xl">📚</span>
+                                <span className="font-bold text-primary">{skill}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
                 {/* Footer / Careers */}
                 <div className="glass-panel p-8 fade-in mb-12 text-center" style={{ animationDelay: '0.6s' }}>
                     <h3 className="text-xl font-bold mb-6">あなたにおすすめの適職</h3>
@@ -256,7 +247,30 @@ export default function ResultPage() {
                     </p>
                 </div>
 
-                <div className="text-center fade-in" style={{ animationDelay: '0.8s' }}>
+                {/* SNS Share (NEW) */}
+                <div className="text-center mb-12 fade-in" style={{ animationDelay: '1.0s' }}>
+                    <h4 className="text-sm font-bold text-muted mb-4">結果をシェアする</h4>
+                    <div className="flex justify-center gap-4">
+                        <a
+                            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-6 py-3 bg-black text-white rounded-full font-bold shadow-md hover:bg-gray-800 transition-colors flex items-center gap-2"
+                        >
+                            <span>X (Twitter)</span>
+                        </a>
+                        <a
+                            href={`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(shareUrl)}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-6 py-3 bg-[#06C755] text-white rounded-full font-bold shadow-md hover:bg-[#05b34c] transition-colors flex items-center gap-2"
+                        >
+                            <span>LINE</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="text-center fade-in" style={{ animationDelay: '1.1s' }}>
                     <button onClick={() => router.push('/')} className="btn-primary text-sm px-8 py-3 bg-gray-600 hover:bg-gray-700">
                         トップに戻る
                     </button>

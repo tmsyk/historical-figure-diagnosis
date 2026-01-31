@@ -1190,40 +1190,6 @@
     ]
   },
   {
-    "id": "jacinda_ardern",
-    "name_ja": "ジャシンダ・アーダーン",
-    "name_en": "Jacinda Ardern",
-    "category": "世界の政治家・リーダー (古代〜現代)",
-    "era": "21世紀",
-    "title": "ニュージーランド首相",
-    "personalities": {
-      "ei": 7,
-      "sn": 5,
-      "tf": 4,
-      "jp": 6
-    },
-    "talents": {
-      "strategic": 7,
-      "ideation": 8,
-      "execution": 8,
-      "influence": 10,
-      "empathy": 10,
-      "analysis": 7,
-      "adaptability": 9,
-      "resilience": 9,
-      "visionary": 8,
-      "charisma": 10
-    },
-    "mbti_type": "ENFJ",
-    "description": "ジャシンダ・アーダーンは、ニュージーランドの首相として、共感力とリーダーシップを発揮し、クライストチャーチモスク銃撃事件などの困難な状況を乗り越えた。福祉政策を推進し、環境問題にも積極的に取り組んだ。世界的に尊敬される若いリーダー。",
-    "quote": "私たち全員が人間だということ。",
-    "suitable_careers": [
-      "ソーシャルワーカー",
-      "非営利団体ディレクター",
-      "コミュニティリーダー"
-    ]
-  },
-  {
     "id": "queen_victoria",
     "name_ja": "ヴィクトリア女王",
     "name_en": "Queen Victoria",
@@ -1428,40 +1394,6 @@
     ]
   },
   {
-    "id": "steve_jobs",
-    "name_ja": "スティーブ・ジョブズ",
-    "name_en": "Steve Jobs",
-    "category": "実業家・経営者 (世界・日本)",
-    "era": "21世紀",
-    "title": "アップル創業者",
-    "personalities": {
-      "ei": 4,
-      "sn": 8,
-      "tf": 3,
-      "jp": 8
-    },
-    "talents": {
-      "strategic": 9,
-      "ideation": 10,
-      "execution": 9,
-      "influence": 10,
-      "empathy": 5,
-      "analysis": 7,
-      "adaptability": 7,
-      "resilience": 8,
-      "visionary": 10,
-      "charisma": 10
-    },
-    "mbti_type": "INTJ",
-    "description": "スティーブ・ジョブズは、アップルを創設し、革新的な製品デザインとユーザーエクスペリエンスを重視し、テクノロジー業界に大きな影響を与えました。彼は完璧主義者であり、強い信念と創造性を持って世界を変えました。",
-    "quote": "Stay hungry. Stay foolish.",
-    "suitable_careers": [
-      "チーフ・イノベーション・オフィサー",
-      "デザインディレクター",
-      "テクノロジーエバンジェリスト"
-    ]
-  },
-  {
     "id": "konosuke_matsushita",
     "name_ja": "松下幸之助",
     "name_en": "Konosuke Matsushita",
@@ -1632,40 +1564,6 @@
     ]
   },
   {
-    "id": "jack_ma",
-    "name_ja": "馬雲",
-    "name_en": "Jack Ma",
-    "category": "実業家・経営者 (世界・日本)",
-    "era": "21世紀",
-    "title": "アリババ創業者",
-    "personalities": {
-      "ei": 9,
-      "sn": 7,
-      "tf": 5,
-      "jp": 6
-    },
-    "talents": {
-      "strategic": 9,
-      "ideation": 10,
-      "execution": 8,
-      "influence": 10,
-      "empathy": 7,
-      "analysis": 6,
-      "adaptability": 9,
-      "resilience": 9,
-      "visionary": 10,
-      "charisma": 10
-    },
-    "mbti_type": "ENFP",
-    "description": "馬雲は、アリババを創設し、中国のEコマース市場を大きく発展させました。彼は強いリーダーシップと未来を見据えるビジョンを持ち、多くの起業家を鼓舞しました。",
-    "quote": "今日が厳しくても、明日はもっと厳しく、明後日は素晴らしい。",
-    "suitable_careers": [
-      "起業家",
-      "事業開発マネージャー",
-      "Eコマースコンサルタント"
-    ]
-  },
-  {
     "id": "sakichi_toyoda",
     "name_ja": "豊田佐吉",
     "name_en": "Sakichi Toyoda",
@@ -1765,142 +1663,6 @@
       "食品科学者",
       "レストランチェーンマネージャー",
       "料理イノベーションコンサルタント"
-    ]
-  },
-  {
-    "id": "oprah_winfrey",
-    "name_ja": "オプラ・ウィンフリー",
-    "name_en": "Oprah Winfrey",
-    "category": "実業家・経営者 (世界・日本)",
-    "era": "21世紀",
-    "title": "メディア界の女王",
-    "personalities": {
-      "ei": 10,
-      "sn": 5,
-      "tf": 2,
-      "jp": 7
-    },
-    "talents": {
-      "strategic": 8,
-      "ideation": 9,
-      "execution": 9,
-      "influence": 10,
-      "empathy": 10,
-      "analysis": 6,
-      "adaptability": 9,
-      "resilience": 10,
-      "visionary": 9,
-      "charisma": 10
-    },
-    "mbti_type": "ENFJ",
-    "description": "オプラ・ウィンフリーは、自身のテレビ番組を通じて、世界中の人々に影響を与え続けています。彼女はエンパシーが高く、困難を乗り越えて成功を収めたロールモデルです。",
-    "quote": "自分を信じれば、何でもできる。",
-    "suitable_careers": [
-      "トーク番組司会者",
-      "メディア幹部",
-      "慈善家"
-    ]
-  },
-  {
-    "id": "tadashi_yanai",
-    "name_ja": "柳井正",
-    "name_en": "Tadashi Yanai",
-    "category": "実業家・経営者 (世界・日本)",
-    "era": "21世紀",
-    "title": "ユニクロ創業者",
-    "personalities": {
-      "ei": 7,
-      "sn": 6,
-      "tf": 8,
-      "jp": 9
-    },
-    "talents": {
-      "strategic": 9,
-      "ideation": 7,
-      "execution": 10,
-      "influence": 8,
-      "empathy": 5,
-      "analysis": 8,
-      "adaptability": 7,
-      "resilience": 9,
-      "visionary": 8,
-      "charisma": 7
-    },
-    "mbti_type": "ENTJ",
-    "description": "柳井正は、ユニクロを世界的なブランドへと成長させました。彼は独自の経営哲学を持ち、常に変化を恐れず、グローバルな視点で事業を展開しています。徹底した合理主義者です。",
-    "quote": "一勝九敗",
-    "suitable_careers": [
-      "小売CEO",
-      "グローバル展開戦略家",
-      "サプライチェーン革新者"
-    ]
-  },
-  {
-    "id": "jeff_bezos",
-    "name_ja": "ジェフ・ベゾス",
-    "name_en": "Jeff Bezos",
-    "category": "実業家・経営者 (世界・日本)",
-    "era": "21世紀",
-    "title": "Amazon創業者",
-    "personalities": {
-      "ei": 4,
-      "sn": 9,
-      "tf": 8,
-      "jp": 7
-    },
-    "talents": {
-      "strategic": 10,
-      "ideation": 10,
-      "execution": 9,
-      "influence": 9,
-      "empathy": 4,
-      "analysis": 10,
-      "adaptability": 9,
-      "resilience": 9,
-      "visionary": 10,
-      "charisma": 7
-    },
-    "mbti_type": "INTJ",
-    "description": "ジェフ・ベゾスはAmazonを創設し、eコマースのあり方を根本から変えました。彼は顧客中心主義を徹底し、長期的な視点で大胆な投資を行ってきました。常に新しい技術革新を追求しています。",
-    "quote": "顧客こそが王様",
-    "suitable_careers": [
-      "Eコマースディレクター",
-      "テクノロジーベンチャーキャピタリスト",
-      "イノベーションストラテジスト"
-    ]
-  },
-  {
-    "id": "yoshiharu_mita",
-    "name_ja": "三木谷浩史",
-    "name_en": "Hiroshi Mikitani",
-    "category": "実業家・経営者 (世界・日本)",
-    "era": "21世紀",
-    "title": "楽天創業者",
-    "personalities": {
-      "ei": 8,
-      "sn": 7,
-      "tf": 7,
-      "jp": 8
-    },
-    "talents": {
-      "strategic": 9,
-      "ideation": 8,
-      "execution": 9,
-      "influence": 9,
-      "empathy": 6,
-      "analysis": 8,
-      "adaptability": 9,
-      "resilience": 9,
-      "visionary": 8,
-      "charisma": 8
-    },
-    "mbti_type": "ESTJ",
-    "description": "三木谷浩史は、楽天を日本を代表するeコマース企業へと成長させました。彼は積極的な海外展開を進め、グローバルなビジネスネットワークを構築しました。スピード感のある経営が特徴です。",
-    "quote": "成功の反対は、挑戦しないこと",
-    "suitable_careers": [
-      "Eコマースマネージャー",
-      "事業開発ディレクター",
-      "グローバル戦略コンサルタント"
     ]
   },
   {
@@ -2890,108 +2652,6 @@
     ]
   },
   {
-    "id": "haruki_murakami",
-    "name_ja": "村上春樹",
-    "name_en": "Haruki Murakami",
-    "category": "芸術家・クリエイター (画家、音楽家、作家)",
-    "era": "現代",
-    "title": "現代文学の旗手",
-    "personalities": {
-      "ei": 4,
-      "sn": 7,
-      "tf": 6,
-      "jp": 7
-    },
-    "talents": {
-      "strategic": 6,
-      "ideation": 9,
-      "execution": 8,
-      "influence": 9,
-      "empathy": 7,
-      "analysis": 8,
-      "adaptability": 7,
-      "resilience": 8,
-      "visionary": 8,
-      "charisma": 8
-    },
-    "mbti_type": "INTP",
-    "description": "村上春樹は、世界的に人気のある日本の小説家です。独特な文体と、現代社会の孤独や喪失感を描いた作品は、多くの読者の心を捉えています。彼の作品は、翻訳を通じて世界中に広がり、現代文学の代表的な存在として認められています。",
-    "quote": "人は、何かに傷つき、それを乗り越えることで成長する。",
-    "suitable_careers": [
-      "小説家",
-      "翻訳家",
-      "エッセイスト"
-    ]
-  },
-  {
-    "id": "hayao_miyazaki",
-    "name_ja": "宮崎駿",
-    "name_en": "Hayao Miyazaki",
-    "category": "芸術家・クリエイター (画家、音楽家、作家)",
-    "era": "現代",
-    "title": "アニメーションの巨匠",
-    "personalities": {
-      "ei": 3,
-      "sn": 8,
-      "tf": 5,
-      "jp": 8
-    },
-    "talents": {
-      "strategic": 9,
-      "ideation": 10,
-      "execution": 10,
-      "influence": 10,
-      "empathy": 8,
-      "analysis": 7,
-      "adaptability": 7,
-      "resilience": 9,
-      "visionary": 10,
-      "charisma": 9
-    },
-    "mbti_type": "INTJ",
-    "description": "宮崎駿は、日本を代表するアニメーション映画監督です。自然や人間の共存、平和への願いをテーマにした作品は、世界中で愛されています。彼の作品は、美しい映像と深いメッセージ性で、子供から大人まで幅広い世代に感動を与え続けています。",
-    "quote": "アニメーションは、世界を変える力を持っている。",
-    "suitable_careers": [
-      "アニメーション監督",
-      "ストーリーボードアーティスト",
-      "環境保護活動家"
-    ]
-  },
-  {
-    "id": "tori_amos",
-    "name_ja": "トーリ・エイモス",
-    "name_en": "Tori Amos",
-    "category": "芸術家・クリエイター (画家、音楽家、作家)",
-    "era": "現代",
-    "title": "ピアノの詩人",
-    "personalities": {
-      "ei": 5,
-      "sn": 4,
-      "tf": 3,
-      "jp": 4
-    },
-    "talents": {
-      "strategic": 6,
-      "ideation": 10,
-      "execution": 9,
-      "influence": 8,
-      "empathy": 9,
-      "analysis": 7,
-      "adaptability": 8,
-      "resilience": 8,
-      "visionary": 9,
-      "charisma": 8
-    },
-    "mbti_type": "INFP",
-    "description": "トーリ・エイモスは、アメリカのシンガーソングライター、ピアニストです。感情豊かで内省的な歌詞と、独特なピアノ演奏は、多くのファンを魅了しています。彼女の作品は、女性の権利や社会問題にも積極的に取り組んでおり、強いメッセージ性を持っています。",
-    "quote": "私は、自分の声を通して、人々に力を与えたい。",
-    "suitable_careers": [
-      "シンガーソングライター",
-      "音楽療法士",
-      "フェミニスト活動家"
-    ]
-  },
-  {
     "id": "rembrandt",
     "name_ja": "レンブラント",
     "name_en": "Rembrandt",
@@ -3091,40 +2751,6 @@
       "小説家",
       "脚本家",
       "犯罪心理学者"
-    ]
-  },
-  {
-    "id": "bob_dylan",
-    "name_ja": "ボブ・ディラン",
-    "name_en": "Bob Dylan",
-    "category": "芸術家・クリエイター (画家、音楽家、作家)",
-    "era": "現代",
-    "title": "フォークの吟遊詩人",
-    "personalities": {
-      "ei": 6,
-      "sn": 5,
-      "tf": 4,
-      "jp": 5
-    },
-    "talents": {
-      "strategic": 7,
-      "ideation": 10,
-      "execution": 9,
-      "influence": 10,
-      "empathy": 8,
-      "analysis": 7,
-      "adaptability": 9,
-      "resilience": 8,
-      "visionary": 9,
-      "charisma": 9
-    },
-    "mbti_type": "ENFP",
-    "description": "ボブ・ディランは、アメリカのシンガーソングライターであり、フォークミュージックの代表的な存在です。社会的なメッセージを込めた歌詞と、独特な歌声は、多くの若者に影響を与えました。彼は音楽を通して、平和や人権を訴え、社会運動にも貢献しました。",
-    "quote": "人は、自分が見た世界を歌うべきだ。",
-    "suitable_careers": [
-      "シンガーソングライター",
-      "社会活動家",
-      "詩人"
     ]
   },
   {
