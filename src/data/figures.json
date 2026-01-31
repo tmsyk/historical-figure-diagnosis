@@ -1,0 +1,3912 @@
+[
+  {
+    "id": "oda_nobunaga",
+    "name_ja": "織田信長",
+    "name_en": "Oda Nobunaga",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "戦国時代",
+    "title": "天下布武の覇王",
+    "personalities": {
+      "ei": 8,
+      "sn": 3,
+      "tf": 9,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 9,
+      "execution": 10,
+      "influence": 9,
+      "empathy": 3,
+      "analysis": 8,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 10,
+      "charisma": 10
+    },
+    "mbti_type": "ENTJ",
+    "description": "織田信長は、革新的な戦略と冷酷な決断力で戦国時代を駆け上がった武将です。合理主義者であり、伝統にとらわれず、日本統一を目指しました。彼のカリスマ性と独創性は多くの人々を惹きつけ、恐れさせました。",
+    "quote": "人間五十年、化天のうちを比ぶれば、夢幻の如くなり",
+    "suitable_careers": [
+      "CEO",
+      "Political Strategist",
+      "Venture Capitalist"
+    ]
+  },
+  {
+    "id": "toyotomi_hideyoshi",
+    "name_ja": "豊臣秀吉",
+    "name_en": "Toyotomi Hideyoshi",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "安土桃山時代",
+    "title": "人たらしの天下人",
+    "personalities": {
+      "ei": 9,
+      "sn": 6,
+      "tf": 4,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 8,
+      "execution": 10,
+      "influence": 10,
+      "empathy": 7,
+      "analysis": 6,
+      "adaptability": 9,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 9
+    },
+    "mbti_type": "ENFP",
+    "description": "豊臣秀吉は、農民から天下人へと成り上がった稀有な人物です。その人懐っこい性格と巧みな交渉術で多くの人々を味方につけ、信長の遺志を継いで天下統一を成し遂げました。彼の柔軟性と機転は、あらゆる困難を乗り越える原動力となりました。",
+    "quote": "露と落ち 露と消えにし 我が身かな 浪速のことは 夢のまた夢",
+    "suitable_careers": [
+      "Negotiator",
+      "Sales Manager",
+      "Diplomat"
+    ]
+  },
+  {
+    "id": "tokugawa_ieyasu",
+    "name_ja": "徳川家康",
+    "name_en": "Tokugawa Ieyasu",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "江戸時代",
+    "title": "泰平の礎を築いた狸",
+    "personalities": {
+      "ei": 3,
+      "sn": 8,
+      "tf": 7,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 6,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 4,
+      "analysis": 9,
+      "adaptability": 6,
+      "resilience": 10,
+      "visionary": 7,
+      "charisma": 6
+    },
+    "mbti_type": "ISTJ",
+    "description": "徳川家康は、辛抱強く着実に勢力を拡大し、江戸幕府を開いた人物です。慎重で保守的な性格であり、長期的な視点を持って日本の安定を重視しました。その堅実な政治手腕は、260年以上にわたる平和な時代を築き上げました。",
+    "quote": "堪忍は無事長久の基",
+    "suitable_careers": [
+      "Chief Legal Officer",
+      "Project Manager",
+      "Financial Analyst"
+    ]
+  },
+  {
+    "id": "akeda_shingen",
+    "name_ja": "武田信玄",
+    "name_en": "Takeda Shingen",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "戦国時代",
+    "title": "甲斐の虎",
+    "personalities": {
+      "ei": 5,
+      "sn": 7,
+      "tf": 8,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 5,
+      "analysis": 8,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 7,
+      "charisma": 7
+    },
+    "mbti_type": "ISTJ",
+    "description": "武田信玄は、卓越した軍略と領国経営で知られる戦国大名です。冷静沈着で規律を重んじ、領民を大切にする統治を行いました。その強固な軍事力と緻密な戦略は、織田信長をも苦しめました。",
+    "quote": "人は石垣、人は城、情けは味方、仇は敵なり",
+    "suitable_careers": [
+      "Military Strategist",
+      "Corporate Trainer",
+      "Operations Manager"
+    ]
+  },
+  {
+    "id": "uesugi_kenshin",
+    "name_ja": "上杉謙信",
+    "name_en": "Uesugi Kenshin",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "戦国時代",
+    "title": "越後の龍",
+    "personalities": {
+      "ei": 4,
+      "sn": 6,
+      "tf": 2,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 5,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 2,
+      "analysis": 8,
+      "adaptability": 6,
+      "resilience": 10,
+      "visionary": 6,
+      "charisma": 7
+    },
+    "mbti_type": "INTJ",
+    "description": "上杉謙信は、義を重んじ、弱者を助けるために戦った戦国武将です。その勇敢さと優れた軍事力は、多くの人々から尊敬を集めました。武田信玄との川中島の戦いは、戦国時代の名勝負として語り継がれています。",
+    "quote": "第一義",
+    "suitable_careers": [
+      "Ethical Hacker",
+      "Non-Profit Director",
+      "Military Leader"
+    ]
+  },
+  {
+    "id": "date_masamune",
+    "name_ja": "伊達政宗",
+    "name_en": "Date Masamune",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "安土桃山時代",
+    "title": "独眼竜",
+    "personalities": {
+      "ei": 7,
+      "sn": 4,
+      "tf": 6,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 8,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 5,
+      "analysis": 7,
+      "adaptability": 8,
+      "resilience": 9,
+      "visionary": 7,
+      "charisma": 8
+    },
+    "mbti_type": "ESTP",
+    "description": "伊達政宗は、隻眼の勇将として知られ、奥羽地方を統一した戦国大名です。大胆不敵な性格で、常に新しいことに挑戦しました。その革新的な思考は、仙台藩の発展に大きく貢献しました。",
+    "quote": "我が生涯に一片の悔いなし",
+    "suitable_careers": [
+      "Entrepreneur",
+      "Marketing Director",
+      "Crisis Manager"
+    ]
+  },
+  {
+    "id": "ishida_mitsunari",
+    "name_ja": "石田三成",
+    "name_en": "Ishida Mitsunari",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "安土桃山時代",
+    "title": "義に殉じた知将",
+    "personalities": {
+      "ei": 3,
+      "sn": 9,
+      "tf": 9,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 7,
+      "influence": 6,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 4,
+      "resilience": 7,
+      "visionary": 7,
+      "charisma": 3
+    },
+    "mbti_type": "INTJ",
+    "description": "石田三成は、豊臣秀吉に重用された知将であり、関ヶ原の戦いで西軍を率いました。 義理堅く、正義感が強い性格でしたが、融通が利かない一面もありました。 秀吉への忠義を貫き、最後まで戦い抜きました。",
+    "quote": "大一大万大吉",
+    "suitable_careers": [
+      "Compliance Officer",
+      "Data Analyst",
+      "Research Scientist"
+    ]
+  },
+  {
+    "id": "kuroda_kanbei",
+    "name_ja": "黒田官兵衛",
+    "name_en": "Kuroda Kanbei",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "安土桃山時代",
+    "title": "智謀の軍師",
+    "personalities": {
+      "ei": 2,
+      "sn": 9,
+      "tf": 8,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 9,
+      "execution": 7,
+      "influence": 7,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 6,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 4
+    },
+    "mbti_type": "INTJ",
+    "description": "黒田官兵衛は、豊臣秀吉の軍師として活躍し、数々の戦で勝利に貢献しました。冷静沈着で知略に長け、戦局を見抜く力に優れていました。その優れた才能は、秀吉の天下統一を支えました。",
+    "quote": "人に媚びへつらうは、武士の恥なり",
+    "suitable_careers": [
+      "Strategic Planner",
+      "Professor",
+      "Cybersecurity Expert"
+    ]
+  },
+  {
+    "id": "sanada_yukimura",
+    "name_ja": "真田幸村",
+    "name_en": "Sanada Yukimura",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "安土桃山時代",
+    "title": "日本一の兵",
+    "personalities": {
+      "ei": 8,
+      "sn": 5,
+      "tf": 6,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 10,
+      "influence": 9,
+      "empathy": 7,
+      "analysis": 7,
+      "adaptability": 8,
+      "resilience": 10,
+      "visionary": 7,
+      "charisma": 9
+    },
+    "mbti_type": "ENFJ",
+    "description": "真田幸村は、大坂の陣で徳川家康を苦しめた勇猛果敢な武将です。勇敢で義理堅く、その戦いぶりは敵味方問わず賞賛されました。 彼の名は、後世にまで語り継がれる英雄として知られています。",
+    "quote": "不惜身命",
+    "suitable_careers": [
+      "Community Organizer",
+      "Military Leader",
+      "Human Resources Manager"
+    ]
+  },
+  {
+    "id": "mori_motoharu",
+    "name_ja": "毛利元就",
+    "name_en": "Mori Motonari",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "戦国時代",
+    "title": "謀略の智将",
+    "personalities": {
+      "ei": 4,
+      "sn": 7,
+      "tf": 8,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 7,
+      "execution": 8,
+      "influence": 8,
+      "empathy": 5,
+      "analysis": 9,
+      "adaptability": 6,
+      "resilience": 8,
+      "visionary": 7,
+      "charisma": 6
+    },
+    "mbti_type": "INTJ",
+    "description": "毛利元就は、中国地方を支配した戦国大名であり、巧みな戦略と謀略で勢力を拡大しました。冷静沈着で用心深く、一族の結束を重視しました。彼の三本の矢の教えは、家族の重要性を示すものとして有名です。",
+    "quote": "三本の矢",
+    "suitable_careers": [
+      "Family Business Consultant",
+      "CEO",
+      "Investment Strategist"
+    ]
+  },
+  {
+    "id": "yamauchi_kazutoyo",
+    "name_ja": "山内一豊",
+    "name_en": "Yamauchi Kazutoyo",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "安土桃山時代",
+    "title": "内助の功で成り上がった武将",
+    "personalities": {
+      "ei": 6,
+      "sn": 6,
+      "tf": 7,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 5,
+      "execution": 8,
+      "influence": 6,
+      "empathy": 5,
+      "analysis": 7,
+      "adaptability": 8,
+      "resilience": 9,
+      "visionary": 6,
+      "charisma": 5
+    },
+    "mbti_type": "ISTJ",
+    "description": "山内一豊は、妻の内助の功で知られる武将であり、関ヶ原の戦いの功績で土佐藩の初代藩主となりました。誠実で努力家であり、領民を大切にする統治を行いました。妻の千代との夫婦愛は、美談として語り継がれています。",
+    "quote": "塵も積もれば山となる",
+    "suitable_careers": [
+      "Accountant",
+      "City Manager",
+      "Database Administrator"
+    ]
+  },
+  {
+    "id": "yoshida_shoin",
+    "name_ja": "吉田松陰",
+    "name_en": "Yoshida Shoin",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "幕末",
+    "title": "草莽崛起の志士",
+    "personalities": {
+      "ei": 6,
+      "sn": 4,
+      "tf": 2,
+      "jp": 3
+    },
+    "talents": {
+      "strategic": 6,
+      "ideation": 10,
+      "execution": 7,
+      "influence": 9,
+      "empathy": 9,
+      "analysis": 6,
+      "adaptability": 8,
+      "resilience": 7,
+      "visionary": 10,
+      "charisma": 9
+    },
+    "mbti_type": "ENFP",
+    "description": "吉田松陰は、幕末の思想家・教育者であり、松下村塾を開き、多くの志士を育成しました。情熱的で革新的な思想を持ち、日本の近代化を訴えました。彼の教えは、明治維新の原動力となりました。",
+    "quote": "至誠にして動かざるものは未だ之有らざるなり",
+    "suitable_careers": [
+      "Educator",
+      "Motivational Speaker",
+      "Social Activist"
+    ]
+  },
+  {
+    "id": "saigo_takamori",
+    "name_ja": "西郷隆盛",
+    "name_en": "Saigo Takamori",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "幕末・明治",
+    "title": "最後のサムライ",
+    "personalities": {
+      "ei": 3,
+      "sn": 3,
+      "tf": 3,
+      "jp": 2
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 8,
+      "execution": 9,
+      "influence": 10,
+      "empathy": 10,
+      "analysis": 7,
+      "adaptability": 6,
+      "resilience": 10,
+      "visionary": 8,
+      "charisma": 10
+    },
+    "mbti_type": "INFP",
+    "description": "西郷隆盛は、幕末の志士であり、明治維新の立役者の一人です。誠実で正義感が強く、弱者のために尽くしました。西南戦争で敗れ、自刃しましたが、その生き様は多くの人々に感銘を与えました。",
+    "quote": "児孫のために美田を買わず",
+    "suitable_careers": [
+      "Social Worker",
+      "Activist",
+      "Spiritual Leader"
+    ]
+  },
+  {
+    "id": "okubo_toshimichi",
+    "name_ja": "大久保利通",
+    "name_en": "Okubo Toshimichi",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "明治",
+    "title": "維新の三傑",
+    "personalities": {
+      "ei": 3,
+      "sn": 7,
+      "tf": 9,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 10,
+      "influence": 9,
+      "empathy": 3,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "INTJ",
+    "description": "大久保利通は、明治維新の立役者の一人であり、日本の近代化を主導しました。冷静沈着で現実主義者であり、強力なリーダーシップを発揮しました。その卓越した政治手腕は、明治政府の基礎を築き上げました。",
+    "quote": "為せば成る、為さねば成らぬ何事も",
+    "suitable_careers": [
+      "Government Official",
+      "Lobbyist",
+      "Chief of Staff"
+    ]
+  },
+  {
+    "id": "kido_takayoshi",
+    "name_ja": "木戸孝允",
+    "name_en": "Kido Takayoshi",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "幕末・明治",
+    "title": "維新の三傑",
+    "personalities": {
+      "ei": 7,
+      "sn": 5,
+      "tf": 5,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 8,
+      "execution": 8,
+      "influence": 9,
+      "empathy": 8,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 9
+    },
+    "mbti_type": "ENFJ",
+    "description": "木戸孝允は、明治維新の立役者の一人であり、大久保利通とともに日本の近代化を推進しました。柔軟な思考を持ち、積極的な外交を展開しました。その優れた調整能力は、政府内の対立を解決し、国をまとめ上げました。",
+    "quote": "世の中に生を得るは事を為すにあり",
+    "suitable_careers": [
+      "Mediator",
+      "Public Relations Director",
+      "Political Analyst"
+    ]
+  },
+  {
+    "id": "sakuma_shozan",
+    "name_ja": "佐久間象山",
+    "name_en": "Sakuma Shozan",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "幕末",
+    "title": "開明的な思想家",
+    "personalities": {
+      "ei": 5,
+      "sn": 8,
+      "tf": 9,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 10,
+      "execution": 6,
+      "influence": 7,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 7,
+      "resilience": 7,
+      "visionary": 10,
+      "charisma": 5
+    },
+    "mbti_type": "INTP",
+    "description": "佐久間象山は、幕末の思想家であり、西洋の技術や学問を積極的に導入することを主張しました。独創的な発想を持ち、日本の近代化に貢献しました。彼の革新的な思想は、多くの人々に影響を与えました。",
+    "quote": "東洋道徳、西洋芸術",
+    "suitable_careers": [
+      "Inventor",
+      "Engineer",
+      "Research Scientist"
+    ]
+  },
+  {
+    "id": "kawaji_toshiakira",
+    "name_ja": "川路聖謨",
+    "name_en": "Kawaji Toshiakira",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "幕末",
+    "title": "有能な幕臣",
+    "personalities": {
+      "ei": 4,
+      "sn": 7,
+      "tf": 8,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 6,
+      "execution": 9,
+      "influence": 7,
+      "empathy": 5,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 7,
+      "charisma": 5
+    },
+    "mbti_type": "ISTJ",
+    "description": "川路聖謨は、幕末の幕臣であり、外交や財政改革に尽力しました。誠実で責任感が強く、国のために尽くしました。彼の努力は、幕府の延命に貢献しましたが、時代の流れには逆らえませんでした。",
+    "quote": "時勢",
+    "suitable_careers": [
+      "Financial Consultant",
+      "Auditor",
+      "Civil Servant"
+    ]
+  },
+  {
+    "id": "katsu_kaishu",
+    "name_ja": "勝海舟",
+    "name_en": "Katsu Kaishu",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "幕末・明治",
+    "title": "開国論者",
+    "personalities": {
+      "ei": 7,
+      "sn": 5,
+      "tf": 7,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 7,
+      "influence": 9,
+      "empathy": 6,
+      "analysis": 8,
+      "adaptability": 9,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 8
+    },
+    "mbti_type": "ENTP",
+    "description": "勝海舟は、幕末の幕臣であり、開国を主張し、江戸城無血開城を実現しました。柔軟な思考を持ち、優れた交渉術を発揮しました。その功績は、日本の近代化に大きく貢献しました。",
+    "quote": "氷解瓦解",
+    "suitable_careers": [
+      "Lawyer",
+      "Consultant",
+      "Diplomat"
+    ]
+  },
+  {
+    "id": "okita_soji",
+    "name_ja": "沖田総司",
+    "name_en": "Okita Soji",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "幕末",
+    "title": "新選組一番隊組長",
+    "personalities": {
+      "ei": 6,
+      "sn": 3,
+      "tf": 4,
+      "jp": 3
+    },
+    "talents": {
+      "strategic": 6,
+      "ideation": 5,
+      "execution": 10,
+      "influence": 7,
+      "empathy": 2,
+      "analysis": 5,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 4,
+      "charisma": 7
+    },
+    "mbti_type": "ISTP",
+    "description": "沖田総司は、新選組の一番隊組長であり、剣術の達人として知られています。冷静沈着で、任務に忠実でしたが、その若さで病に倒れました。彼の剣の腕前は、多くの人々に畏怖の念を抱かせました。",
+    "quote": "近藤さん！",
+    "suitable_careers": [
+      "Security Specialist",
+      "Surgeon",
+      "Pilot"
+    ]
+  },
+  {
+    "id": "goto_shojiro",
+    "name_ja": "後藤象二郎",
+    "name_en": "Goto Shojiro",
+    "category": "日本の武将・政治家 (戦国〜幕末)",
+    "era": "幕末・明治",
+    "title": "大政奉還を建白した土佐藩士",
+    "personalities": {
+      "ei": 8,
+      "sn": 6,
+      "tf": 7,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 8,
+      "execution": 8,
+      "influence": 9,
+      "empathy": 7,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 7,
+      "visionary": 7,
+      "charisma": 8
+    },
+    "mbti_type": "ESTP",
+    "description": "後藤象二郎は、土佐藩士であり、大政奉還を建白し、明治維新のきっかけを作りました。行動力があり、積極的な政治活動を展開しました。その先見の明は、日本の歴史を大きく変えました。",
+    "quote": "船中八策",
+    "suitable_careers": [
+      "Political Campaign Manager",
+      "Journalist",
+      "Event Organizer"
+    ]
+  },
+  {
+    "id": "augustus",
+    "name_ja": "アウグストゥス",
+    "name_en": "Augustus",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "古代ローマ",
+    "title": "初代ローマ皇帝",
+    "personalities": {
+      "ei": 4,
+      "sn": 6,
+      "tf": 8,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 4,
+      "analysis": 8,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "INTJ",
+    "description": "アウグストゥスは、卓越した戦略と政治手腕でローマを共和政から帝政へと移行させた。冷静沈着な性格で、長期的な視点から国家を安定させ、平和を築いた。権力を掌握し、ローマ帝国の黄金時代を築いた。",
+    "quote": "急がば回れ。",
+    "suitable_careers": [
+      "CEO",
+      "Political Strategist",
+      "Diplomat"
+    ]
+  },
+  {
+    "id": "queen_elizabeth_i",
+    "name_ja": "エリザベス1世",
+    "name_en": "Queen Elizabeth I",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "16世紀",
+    "title": "処女王",
+    "personalities": {
+      "ei": 6,
+      "sn": 7,
+      "tf": 6,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 8,
+      "execution": 8,
+      "influence": 10,
+      "empathy": 6,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 10
+    },
+    "mbti_type": "ENFJ",
+    "description": "エリザベス1世は、知性と外交手腕でイングランドを黄金時代へと導いた。宗教的対立を鎮め、スペインの無敵艦隊を打ち破り、国家の独立を守った。国民からの支持を得るためのカリスマ性と政治的な手腕に長けていた。",
+    "quote": "すべてを持っているのは私だけです。私は夫も家族もいないのですから、私はすべてをイングランドに捧げます。",
+    "suitable_careers": [
+      "Diplomat",
+      "Public Relations Manager",
+      "Politician"
+    ]
+  },
+  {
+    "id": "george_washington",
+    "name_ja": "ジョージ・ワシントン",
+    "name_en": "George Washington",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "18世紀",
+    "title": "アメリカ合衆国初代大統領",
+    "personalities": {
+      "ei": 3,
+      "sn": 8,
+      "tf": 7,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 6,
+      "execution": 9,
+      "influence": 7,
+      "empathy": 5,
+      "analysis": 7,
+      "adaptability": 6,
+      "resilience": 10,
+      "visionary": 7,
+      "charisma": 6
+    },
+    "mbti_type": "ISTJ",
+    "description": "ジョージ・ワシントンは、アメリカ独立戦争を勝利に導き、初代大統領として合衆国の基礎を築いた。誠実さと責任感を重んじ、私欲を捨てて国家のために尽力した。秩序と規律を重視し、国民からの信頼を集めた。",
+    "quote": "自由を守るためには、国民は常に武装し、軍事的な規律を保っていなければならない。",
+    "suitable_careers": [
+      "Project Manager",
+      "Military Officer",
+      "Head of Non-Profit"
+    ]
+  },
+  {
+    "id": "napoleon_bonaparte",
+    "name_ja": "ナポレオン・ボナパルト",
+    "name_en": "Napoleon Bonaparte",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "19世紀",
+    "title": "フランス皇帝",
+    "personalities": {
+      "ei": 8,
+      "sn": 6,
+      "tf": 9,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 9,
+      "execution": 10,
+      "influence": 9,
+      "empathy": 4,
+      "analysis": 9,
+      "adaptability": 9,
+      "resilience": 9,
+      "visionary": 9,
+      "charisma": 9
+    },
+    "mbti_type": "ENTJ",
+    "description": "ナポレオン・ボナパルトは、卓越した軍事力と政治力でフランス革命後の混乱を収め、ヨーロッパ大陸を席巻した。法典を制定し、行政制度を改革し、フランスの近代化に貢献した。野心家であり、自己中心的でありながら、多くの人々を魅了した。",
+    "quote": "余の辞書に不可能という文字はない。",
+    "suitable_careers": [
+      "CEO",
+      "General",
+      "Political Campaign Manager"
+    ]
+  },
+  {
+    "id": "otto_von_bismarck",
+    "name_ja": "オットー・フォン・ビスマルク",
+    "name_en": "Otto von Bismarck",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "19世紀",
+    "title": "鉄血宰相",
+    "personalities": {
+      "ei": 3,
+      "sn": 7,
+      "tf": 9,
+      "jp": 10
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 7,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 7,
+      "charisma": 6
+    },
+    "mbti_type": "INTJ",
+    "description": "オットー・フォン・ビスマルクは、巧妙な外交と軍事力でドイツを統一し、ヨーロッパの勢力均衡を操った。現実主義者であり、冷徹な判断力で国益を追求した。福祉政策を導入し、社会の安定にも貢献した。",
+    "quote": "鉄と血によってのみ、問題は解決される。",
+    "suitable_careers": [
+      "Political Analyst",
+      "Negotiator",
+      "Lobbyist"
+    ]
+  },
+  {
+    "id": "sun_yat-sen",
+    "name_ja": "孫文",
+    "name_en": "Sun Yat-sen",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "20世紀初頭",
+    "title": "中国革命の父",
+    "personalities": {
+      "ei": 8,
+      "sn": 5,
+      "tf": 5,
+      "jp": 4
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 10,
+      "execution": 7,
+      "influence": 10,
+      "empathy": 8,
+      "analysis": 6,
+      "adaptability": 8,
+      "resilience": 9,
+      "visionary": 10,
+      "charisma": 9
+    },
+    "mbti_type": "ENFP",
+    "description": "孫文は、中国の清朝を倒し、中華民国を建国した革命家。三民主義を提唱し、民主主義と民族主義の確立を目指した。理想主義者であり、多くの支持者を集め、中国近代化の礎を築いた。",
+    "quote": "革命尚未成功，同志仍須努力。",
+    "suitable_careers": [
+      "Social Activist",
+      "Human Rights Lawyer",
+      "Political Organizer"
+    ]
+  },
+  {
+    "id": "mahatma_gandhi",
+    "name_ja": "マハトマ・ガンジー",
+    "name_en": "Mahatma Gandhi",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "20世紀",
+    "title": "インド独立の父",
+    "personalities": {
+      "ei": 2,
+      "sn": 3,
+      "tf": 2,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 10,
+      "execution": 6,
+      "influence": 10,
+      "empathy": 10,
+      "analysis": 6,
+      "adaptability": 7,
+      "resilience": 10,
+      "visionary": 10,
+      "charisma": 10
+    },
+    "mbti_type": "INFP",
+    "description": "マハトマ・ガンジーは、非暴力・不服従の運動によってインドをイギリスの支配から独立させた。道徳的な指導者であり、国民に勇気と希望を与えた。人種差別や貧困などの社会問題の解決に尽力した。",
+    "quote": "暴力は、すべてを奪うまで続く。",
+    "suitable_careers": [
+      "Peace Activist",
+      "Community Organizer",
+      "Spiritual Leader"
+    ]
+  },
+  {
+    "id": "vladimir_lenin",
+    "name_ja": "ウラジーミル・レーニン",
+    "name_en": "Vladimir Lenin",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "20世紀",
+    "title": "ロシア革命の指導者",
+    "personalities": {
+      "ei": 5,
+      "sn": 6,
+      "tf": 9,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 8,
+      "execution": 9,
+      "influence": 9,
+      "empathy": 3,
+      "analysis": 9,
+      "adaptability": 8,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 8
+    },
+    "mbti_type": "INTJ",
+    "description": "ウラジーミル・レーニンは、ロシア革命を指導し、ソビエト連邦を建国した。マルクス主義に基づき、プロレタリア独裁を唱えた。革命家であり、冷徹な戦略家であり、20世紀の歴史に大きな影響を与えた。",
+    "quote": "機会は一度しか訪れない。",
+    "suitable_careers": [
+      "Political Strategist",
+      "Revolutionary Leader",
+      "Economist"
+    ]
+  },
+  {
+    "id": "franklin_d_roosevelt",
+    "name_ja": "フランクリン・ルーズベルト",
+    "name_en": "Franklin D. Roosevelt",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "20世紀",
+    "title": "アメリカ合衆国大統領",
+    "personalities": {
+      "ei": 7,
+      "sn": 6,
+      "tf": 6,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 8,
+      "influence": 10,
+      "empathy": 8,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 10,
+      "visionary": 9,
+      "charisma": 9
+    },
+    "mbti_type": "ENFJ",
+    "description": "フランクリン・ルーズベルトは、世界恐慌と第二次世界大戦という危機を乗り越え、アメリカを導いた。ニューディール政策を実施し、社会保障制度を確立した。国民に希望を与え、リーダーシップを発揮した。",
+    "quote": "恐れるべき唯一のものは、恐怖そのものである。",
+    "suitable_careers": [
+      "Political Leader",
+      "Crisis Manager",
+      "Public Policy Advisor"
+    ]
+  },
+  {
+    "id": "winston_churchill",
+    "name_ja": "ウィンストン・チャーチル",
+    "name_en": "Winston Churchill",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "20世紀",
+    "title": "イギリス首相",
+    "personalities": {
+      "ei": 8,
+      "sn": 7,
+      "tf": 8,
+      "jp": 5
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 9,
+      "execution": 8,
+      "influence": 10,
+      "empathy": 6,
+      "analysis": 8,
+      "adaptability": 8,
+      "resilience": 9,
+      "visionary": 9,
+      "charisma": 10
+    },
+    "mbti_type": "ENTP",
+    "description": "ウィンストン・チャーチルは、第二次世界大戦中にイギリスを率い、ナチス・ドイツとの戦いを勝利に導いた。卓越した演説家であり、国民を鼓舞し、不屈の精神を示した。政治家であり、作家であり、歴史家でもあった。",
+    "quote": "決して屈するな、決して、決して、決して、決して。",
+    "suitable_careers": [
+      "Political Leader",
+      "Motivational Speaker",
+      "Author"
+    ]
+  },
+  {
+    "id": "martha_washington",
+    "name_ja": "マーサ・ワシントン",
+    "name_en": "Martha Washington",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "18世紀",
+    "title": "アメリカ合衆国初代ファーストレディ",
+    "personalities": {
+      "ei": 3,
+      "sn": 4,
+      "tf": 3,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 5,
+      "ideation": 5,
+      "execution": 8,
+      "influence": 7,
+      "empathy": 9,
+      "analysis": 6,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 6,
+      "charisma": 6
+    },
+    "mbti_type": "ISFJ",
+    "description": "マーサ・ワシントンは、アメリカ合衆国初代ファーストレディとして、夫ジョージ・ワシントンを支え、新しい国の社会的な基盤を築いた。温かく、思いやりがあり、人々をもてなすことに長けていた。夫の政治活動を陰で支え、アメリカの歴史に貢献した。",
+    "quote": "The General and myself should be better pleased at home.",
+    "suitable_careers": [
+      "Social Worker",
+      "Event Planner",
+      "Diplomat's Spouse"
+    ]
+  },
+  {
+    "id": "indira_gandhi",
+    "name_ja": "インディラ・ガンディー",
+    "name_en": "Indira Gandhi",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "20世紀",
+    "title": "インド首相",
+    "personalities": {
+      "ei": 4,
+      "sn": 6,
+      "tf": 7,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 9,
+      "influence": 9,
+      "empathy": 5,
+      "analysis": 8,
+      "adaptability": 8,
+      "resilience": 9,
+      "visionary": 7,
+      "charisma": 8
+    },
+    "mbti_type": "INTJ",
+    "description": "インディラ・ガンジーは、インドの首相として、社会主義的な政策を推進し、インドの工業化を促進した。強いリーダーシップを発揮し、国際的な地位を高めた。論争の的となる政策も実行し、インドの歴史に大きな足跡を残した。",
+    "quote": "勝利のためなら命も捨てる。",
+    "suitable_careers": [
+      "Political Leader",
+      "Policy Maker",
+      "Strategic Consultant"
+    ]
+  },
+  {
+    "id": "margaret_thatcher",
+    "name_ja": "マーガレット・サッチャー",
+    "name_en": "Margaret Thatcher",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "20世紀",
+    "title": "イギリス首相",
+    "personalities": {
+      "ei": 4,
+      "sn": 7,
+      "tf": 9,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 10,
+      "influence": 9,
+      "empathy": 4,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 10,
+      "visionary": 7,
+      "charisma": 8
+    },
+    "mbti_type": "ISTJ",
+    "description": "マーガレット・サッチャーは、イギリスの首相として、経済改革を断行し、国有企業の民営化を推進した。強い信念を持ち、妥協を許さない姿勢で知られた。論争を巻き起こしながらも、イギリス経済の立て直しに貢献した。",
+    "quote": "合意のために合意することはしない。",
+    "suitable_careers": [
+      "CEO",
+      "Economist",
+      "Political Commentator"
+    ]
+  },
+  {
+    "id": "nelson_mandela",
+    "name_ja": "ネルソン・マンデラ",
+    "name_en": "Nelson Mandela",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "20世紀",
+    "title": "南アフリカ共和国大統領",
+    "personalities": {
+      "ei": 5,
+      "sn": 4,
+      "tf": 3,
+      "jp": 5
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 7,
+      "influence": 10,
+      "empathy": 10,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 10,
+      "visionary": 10,
+      "charisma": 10
+    },
+    "mbti_type": "INFJ",
+    "description": "ネルソン・マンデラは、アパルトヘイトと戦い、南アフリカ共和国を民主化させた。27年間もの間、投獄されたが、不屈の精神で人種差別の撤廃を訴え続けた。平和的な解決を求め、国民に和解と団結を呼びかけた。",
+    "quote": "教育は、世界を変えるために使うことができる最も強力な武器である。",
+    "suitable_careers": [
+      "Human Rights Activist",
+      "Diplomat",
+      "Conflict Mediator"
+    ]
+  },
+  {
+    "id": "lee_kuan_yew",
+    "name_ja": "リー・クアンユー",
+    "name_en": "Lee Kuan Yew",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "20世紀",
+    "title": "シンガポール初代首相",
+    "personalities": {
+      "ei": 3,
+      "sn": 7,
+      "tf": 9,
+      "jp": 10
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 7,
+      "execution": 10,
+      "influence": 8,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 10,
+      "charisma": 7
+    },
+    "mbti_type": "ISTJ",
+    "description": "リー・クアンユーは、シンガポールを独立させ、経済大国に育て上げた。長期的な視点と厳格な政策によって、腐敗を撲滅し、教育水準を高めた。実利主義者であり、国民の生活水準の向上を最優先した。",
+    "quote": "たとえ死んでいても、墓から何か間違ったことがあれば、人々に影響を与えることを私は支配する。",
+    "suitable_careers": [
+      "City Planner",
+      "Strategic Consultant",
+      "Political Advisor"
+    ]
+  },
+  {
+    "id": "jacinda_ardern",
+    "name_ja": "ジャシンダ・アーダーン",
+    "name_en": "Jacinda Ardern",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "21世紀",
+    "title": "ニュージーランド首相",
+    "personalities": {
+      "ei": 7,
+      "sn": 5,
+      "tf": 4,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 8,
+      "execution": 8,
+      "influence": 10,
+      "empathy": 10,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 10
+    },
+    "mbti_type": "ENFJ",
+    "description": "ジャシンダ・アーダーンは、ニュージーランドの首相として、共感力とリーダーシップを発揮し、クライストチャーチモスク銃撃事件などの困難な状況を乗り越えた。福祉政策を推進し、環境問題にも積極的に取り組んだ。世界的に尊敬される若いリーダー。",
+    "quote": "私たち全員が人間だということ。",
+    "suitable_careers": [
+      "Social Worker",
+      "Non-Profit Director",
+      "Community Leader"
+    ]
+  },
+  {
+    "id": "queen_victoria",
+    "name_ja": "ヴィクトリア女王",
+    "name_en": "Queen Victoria",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "19世紀",
+    "title": "大英帝国女王",
+    "personalities": {
+      "ei": 2,
+      "sn": 6,
+      "tf": 7,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 6,
+      "execution": 8,
+      "influence": 8,
+      "empathy": 6,
+      "analysis": 7,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 6,
+      "charisma": 7
+    },
+    "mbti_type": "ISTJ",
+    "description": "ヴィクトリア女王は、大英帝国の繁栄期を象徴する君主。厳格な道徳観を持ち、家族を大切にした。政治的な影響力は限られていたが、国民の尊敬を集め、イギリスの象徴としての役割を果たした。",
+    "quote": "私は良い人になるよう努めます。",
+    "suitable_careers": [
+      "Company Historian",
+      "Archivist",
+      "Museum Curator"
+    ]
+  },
+  {
+    "id": "simon_bolivar",
+    "name_ja": "シモン・ボリバル",
+    "name_en": "Simon Bolivar",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "19世紀",
+    "title": "南米の解放者",
+    "personalities": {
+      "ei": 8,
+      "sn": 5,
+      "tf": 6,
+      "jp": 5
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 9,
+      "execution": 8,
+      "influence": 10,
+      "empathy": 7,
+      "analysis": 7,
+      "adaptability": 8,
+      "resilience": 9,
+      "visionary": 9,
+      "charisma": 10
+    },
+    "mbti_type": "ENFP",
+    "description": "シモン・ボリバルは、南米のスペインからの独立運動を指導し、ベネズエラ、コロンビア、エクアドル、ボリビア、ペルーを解放した。理想主義者であり、カリスマ性にあふれ、南米の英雄として知られる。大コロンビアの統一を夢見たが、実現には至らなかった。",
+    "quote": "何よりも困難なのは、長い奴隷状態から自由になった国民を統治することである。",
+    "suitable_careers": [
+      "Revolutionary Leader",
+      "Political Organizer",
+      "Motivational Speaker"
+    ]
+  },
+  {
+    "id": "akihito",
+    "name_ja": "明仁",
+    "name_en": "Akihito",
+    "category": "世界の政治家・リーダー (古代〜現代)",
+    "era": "20世紀・21世紀",
+    "title": "日本の第125代天皇",
+    "personalities": {
+      "ei": 2,
+      "sn": 3,
+      "tf": 2,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 5,
+      "ideation": 6,
+      "execution": 7,
+      "influence": 8,
+      "empathy": 10,
+      "analysis": 7,
+      "adaptability": 8,
+      "resilience": 9,
+      "visionary": 6,
+      "charisma": 7
+    },
+    "mbti_type": "ISFJ",
+    "description": "明仁天皇は、日本の第125代天皇として、国民に寄り添い、平和と福祉を願った。象徴天皇として、国民統合の象徴としての役割を果たした。常に被災地を訪問し、人々に希望を与えた。",
+    "quote": "忘れてはならないのは、過去の歴史を学び、そこから教訓を得ることです。",
+    "suitable_careers": [
+      "Philanthropist",
+      "Diplomat",
+      "Cultural Ambassador"
+    ]
+  },
+  {
+    "id": "iwasaki_yataro",
+    "name_ja": "岩崎弥太郎",
+    "name_en": "Iwasaki Yataro",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "明治時代",
+    "title": "三菱財閥の創始者",
+    "personalities": {
+      "ei": 7,
+      "sn": 5,
+      "tf": 8,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 10,
+      "influence": 8,
+      "empathy": 3,
+      "analysis": 7,
+      "adaptability": 6,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "ENTJ",
+    "description": "岩崎弥太郎は、三菱財閥の創始者であり、その強烈なリーダーシップと戦略的思考で日本の近代化に大きく貢献しました。彼は事業に対する執念と、逆境を乗り越える強い意志を持っていました。",
+    "quote": "事業は人なり。",
+    "suitable_careers": [
+      "CEO",
+      "Corporate Strategist",
+      "Venture Capitalist"
+    ]
+  },
+  {
+    "id": "henry_ford",
+    "name_ja": "ヘンリー・フォード",
+    "name_en": "Henry Ford",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "20世紀",
+    "title": "フォード・モーター創業者",
+    "personalities": {
+      "ei": 5,
+      "sn": 7,
+      "tf": 8,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 7,
+      "execution": 10,
+      "influence": 9,
+      "empathy": 4,
+      "analysis": 8,
+      "adaptability": 6,
+      "resilience": 9,
+      "visionary": 9,
+      "charisma": 6
+    },
+    "mbti_type": "ESTJ",
+    "description": "ヘンリー・フォードは、フォード・モーターを創設し、大量生産方式を導入して自動車を一般大衆に普及させました。彼は実用主義者であり、効率と生産性を重視し、自動車産業に革命をもたらしました。",
+    "quote": "過去を振り返るな。未来へ進め。",
+    "suitable_careers": [
+      "Industrial Engineer",
+      "Operations Manager",
+      "Logistics Director"
+    ]
+  },
+  {
+    "id": "akio_morita",
+    "name_ja": "盛田昭夫",
+    "name_en": "Akio Morita",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "20世紀",
+    "title": "ソニー創業者",
+    "personalities": {
+      "ei": 9,
+      "sn": 7,
+      "tf": 5,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 10,
+      "execution": 8,
+      "influence": 9,
+      "empathy": 7,
+      "analysis": 6,
+      "adaptability": 9,
+      "resilience": 8,
+      "visionary": 10,
+      "charisma": 9
+    },
+    "mbti_type": "ENFJ",
+    "description": "盛田昭夫は、ソニーの創業者の一人であり、革新的な製品とグローバルなマーケティング戦略で世界を魅了しました。彼は人々のニーズを敏感に察知し、創造性と情熱を持って事業を推進しました。",
+    "quote": "不可能を可能にするのが、人間の知恵と努力だ。",
+    "suitable_careers": [
+      "Marketing Director",
+      "Product Manager",
+      "Innovation Consultant"
+    ]
+  },
+  {
+    "id": "steve_jobs",
+    "name_ja": "スティーブ・ジョブズ",
+    "name_en": "Steve Jobs",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "21世紀",
+    "title": "アップル創業者",
+    "personalities": {
+      "ei": 4,
+      "sn": 8,
+      "tf": 3,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 10,
+      "execution": 9,
+      "influence": 10,
+      "empathy": 5,
+      "analysis": 7,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 10,
+      "charisma": 10
+    },
+    "mbti_type": "INTJ",
+    "description": "スティーブ・ジョブズは、アップルを創設し、革新的な製品デザインとユーザーエクスペリエンスを重視し、テクノロジー業界に大きな影響を与えました。彼は完璧主義者であり、強い信念と創造性を持って世界を変えました。",
+    "quote": "Stay hungry. Stay foolish.",
+    "suitable_careers": [
+      "Chief Innovation Officer",
+      "Design Director",
+      "Technology Evangelist"
+    ]
+  },
+  {
+    "id": "konosuke_matsushita",
+    "name_ja": "松下幸之助",
+    "name_en": "Konosuke Matsushita",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "20世紀",
+    "title": "パナソニック創業者",
+    "personalities": {
+      "ei": 6,
+      "sn": 6,
+      "tf": 6,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 8,
+      "execution": 9,
+      "influence": 9,
+      "empathy": 8,
+      "analysis": 7,
+      "adaptability": 8,
+      "resilience": 10,
+      "visionary": 9,
+      "charisma": 9
+    },
+    "mbti_type": "ENFJ",
+    "description": "松下幸之助は、パナソニックを創設し、「水道哲学」を掲げて社会貢献を重視し、日本の経済発展に貢献しました。彼は人を大切にし、社員の育成と社会への貢献を重視しました。",
+    "quote": "成功の秘訣は、成功するまで諦めないことだ。",
+    "suitable_careers": [
+      "Corporate Social Responsibility Manager",
+      "Human Resources Director",
+      "Business Consultant"
+    ]
+  },
+  {
+    "id": "ingvar_kamprad",
+    "name_ja": "イングヴァル・カンプラード",
+    "name_en": "Ingvar Kamprad",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "20世紀",
+    "title": "IKEA創業者",
+    "personalities": {
+      "ei": 3,
+      "sn": 6,
+      "tf": 8,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 8,
+      "execution": 9,
+      "influence": 7,
+      "empathy": 5,
+      "analysis": 8,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 7,
+      "charisma": 6
+    },
+    "mbti_type": "ISTJ",
+    "description": "イングヴァル・カンプラードは、IKEAを創設し、低価格で高品質な家具を世界中に提供しました。彼は倹約家であり、効率的なビジネスモデルを追求しました。",
+    "quote": "簡素さは美徳である。",
+    "suitable_careers": [
+      "Supply Chain Manager",
+      "Retail Operations Manager",
+      "Cost Analyst"
+    ]
+  },
+  {
+    "id": "soichiro_honda",
+    "name_ja": "本田宗一郎",
+    "name_en": "Soichiro Honda",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "20世紀",
+    "title": "ホンダ創業者",
+    "personalities": {
+      "ei": 8,
+      "sn": 6,
+      "tf": 7,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 9,
+      "execution": 10,
+      "influence": 8,
+      "empathy": 6,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 8
+    },
+    "mbti_type": "ESTP",
+    "description": "本田宗一郎は、ホンダを創設し、革新的な技術と情熱で自動車・バイク業界に革命をもたらしました。彼は技術者としての強い探求心と、常に新しいことに挑戦する精神を持っていました。",
+    "quote": "失敗こそが、進歩への道だ。",
+    "suitable_careers": [
+      "Automotive Engineer",
+      "Product Development Manager",
+      "Mechanical Engineer"
+    ]
+  },
+  {
+    "id": "estee_lauder",
+    "name_ja": "エスティ・ローダー",
+    "name_en": "Estée Lauder",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "20世紀",
+    "title": "エスティ ローダー創業者",
+    "personalities": {
+      "ei": 9,
+      "sn": 6,
+      "tf": 4,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 9,
+      "influence": 10,
+      "empathy": 9,
+      "analysis": 6,
+      "adaptability": 8,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 9
+    },
+    "mbti_type": "ESFJ",
+    "description": "エスティ・ローダーは、エスティ ローダーを創設し、高品質な化粧品と洗練されたマーケティングで世界的なブランドを築き上げました。彼女は顧客のニーズを理解し、情熱と創造性を持って事業を推進しました。",
+    "quote": "美しさとは、心の状態である。",
+    "suitable_careers": [
+      "Cosmetics Marketing Manager",
+      "Brand Manager",
+      "Public Relations Director"
+    ]
+  },
+  {
+    "id": "masaru_ibuka",
+    "name_ja": "井深大",
+    "name_en": "Masaru Ibuka",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "20世紀",
+    "title": "ソニー創業者",
+    "personalities": {
+      "ei": 6,
+      "sn": 8,
+      "tf": 7,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 10,
+      "execution": 8,
+      "influence": 7,
+      "empathy": 6,
+      "analysis": 8,
+      "adaptability": 9,
+      "resilience": 8,
+      "visionary": 10,
+      "charisma": 7
+    },
+    "mbti_type": "INTP",
+    "description": "井深大はソニーの創業者の一人であり、技術革新を牽引しました。彼は独創的な発想と高い技術力で、数々の画期的な製品を世に送り出しました。創造的な問題解決能力に優れていました。",
+    "quote": "やってみなはれ。",
+    "suitable_careers": [
+      "Research and Development Director",
+      "Chief Technology Officer",
+      "Software Architect"
+    ]
+  },
+  {
+    "id": "jack_ma",
+    "name_ja": "馬雲",
+    "name_en": "Jack Ma",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "21世紀",
+    "title": "アリババ創業者",
+    "personalities": {
+      "ei": 9,
+      "sn": 7,
+      "tf": 5,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 10,
+      "execution": 8,
+      "influence": 10,
+      "empathy": 7,
+      "analysis": 6,
+      "adaptability": 9,
+      "resilience": 9,
+      "visionary": 10,
+      "charisma": 10
+    },
+    "mbti_type": "ENFP",
+    "description": "馬雲は、アリババを創設し、中国のEコマース市場を大きく発展させました。彼は強いリーダーシップと未来を見据えるビジョンを持ち、多くの起業家を鼓舞しました。",
+    "quote": "今日が厳しくても、明日はもっと厳しく、明後日は素晴らしい。",
+    "suitable_careers": [
+      "Entrepreneur",
+      "Business Development Manager",
+      "E-commerce Consultant"
+    ]
+  },
+  {
+    "id": "sakichi_toyoda",
+    "name_ja": "豊田佐吉",
+    "name_en": "Sakichi Toyoda",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "明治時代",
+    "title": "トヨタグループ創始者",
+    "personalities": {
+      "ei": 4,
+      "sn": 7,
+      "tf": 8,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 9,
+      "influence": 7,
+      "empathy": 4,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 10,
+      "visionary": 7,
+      "charisma": 5
+    },
+    "mbti_type": "ISTJ",
+    "description": "豊田佐吉は、トヨタグループの創始者であり、自動織機の発明を通じて日本の産業発展に貢献しました。彼は品質管理を重視し、「カイゼン」の精神を育みました。",
+    "quote": "織機の恩恵を世界の人々に。",
+    "suitable_careers": [
+      "Quality Control Manager",
+      "Manufacturing Engineer",
+      "Process Improvement Consultant"
+    ]
+  },
+  {
+    "id": "andrew_carnegie",
+    "name_ja": "アンドリュー・カーネギー",
+    "name_en": "Andrew Carnegie",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "19世紀",
+    "title": "鉄鋼王",
+    "personalities": {
+      "ei": 7,
+      "sn": 5,
+      "tf": 9,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 7,
+      "execution": 9,
+      "influence": 9,
+      "empathy": 4,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 10,
+      "visionary": 8,
+      "charisma": 8
+    },
+    "mbti_type": "ENTJ",
+    "description": "アンドリュー・カーネギーは、アメリカの鉄鋼産業を支配し、巨万の富を築きました。彼は効率的な生産システムを構築し、慈善活動にも力を注ぎました。",
+    "quote": "成功とは、他人のために何ができるかだ。",
+    "suitable_careers": [
+      "Investment Banker",
+      "Financial Analyst",
+      "Wealth Management Advisor"
+    ]
+  },
+  {
+    "id": "momofuku_ando",
+    "name_ja": "安藤百福",
+    "name_en": "Momofuku Ando",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "20世紀",
+    "title": "日清食品創業者",
+    "personalities": {
+      "ei": 6,
+      "sn": 8,
+      "tf": 7,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 10,
+      "execution": 8,
+      "influence": 7,
+      "empathy": 7,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 10,
+      "visionary": 9,
+      "charisma": 7
+    },
+    "mbti_type": "ENTP",
+    "description": "安藤百福は、日清食品を創設し、インスタントラーメンを発明しました。彼は常に新しい発想を追求し、食文化に革命をもたらしました。",
+    "quote": "食は人類の創造なり。",
+    "suitable_careers": [
+      "Food Scientist",
+      "Restaurant Chain Manager",
+      "Culinary Innovation Consultant"
+    ]
+  },
+  {
+    "id": "oprah_winfrey",
+    "name_ja": "オプラ・ウィンフリー",
+    "name_en": "Oprah Winfrey",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "21世紀",
+    "title": "メディア界の女王",
+    "personalities": {
+      "ei": 10,
+      "sn": 5,
+      "tf": 2,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 9,
+      "influence": 10,
+      "empathy": 10,
+      "analysis": 6,
+      "adaptability": 9,
+      "resilience": 10,
+      "visionary": 9,
+      "charisma": 10
+    },
+    "mbti_type": "ENFJ",
+    "description": "オプラ・ウィンフリーは、自身のテレビ番組を通じて、世界中の人々に影響を与え続けています。彼女はエンパシーが高く、困難を乗り越えて成功を収めたロールモデルです。",
+    "quote": "自分を信じれば、何でもできる。",
+    "suitable_careers": [
+      "Talk Show Host",
+      "Media Executive",
+      "Philanthropist"
+    ]
+  },
+  {
+    "id": "tadashi_yanai",
+    "name_ja": "柳井正",
+    "name_en": "Tadashi Yanai",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "21世紀",
+    "title": "ユニクロ創業者",
+    "personalities": {
+      "ei": 7,
+      "sn": 6,
+      "tf": 8,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 10,
+      "influence": 8,
+      "empathy": 5,
+      "analysis": 8,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "ENTJ",
+    "description": "柳井正は、ユニクロを世界的なブランドへと成長させました。彼は独自の経営哲学を持ち、常に変化を恐れず、グローバルな視点で事業を展開しています。徹底した合理主義者です。",
+    "quote": "一勝九敗",
+    "suitable_careers": [
+      "Retail CEO",
+      "Global Expansion Strategist",
+      "Supply Chain Innovator"
+    ]
+  },
+  {
+    "id": "jeff_bezos",
+    "name_ja": "ジェフ・ベゾス",
+    "name_en": "Jeff Bezos",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "21世紀",
+    "title": "Amazon創業者",
+    "personalities": {
+      "ei": 4,
+      "sn": 9,
+      "tf": 8,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 10,
+      "execution": 9,
+      "influence": 9,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 9,
+      "resilience": 9,
+      "visionary": 10,
+      "charisma": 7
+    },
+    "mbti_type": "INTJ",
+    "description": "ジェフ・ベゾスはAmazonを創設し、eコマースのあり方を根本から変えました。彼は顧客中心主義を徹底し、長期的な視点で大胆な投資を行ってきました。常に新しい技術革新を追求しています。",
+    "quote": "顧客こそが王様",
+    "suitable_careers": [
+      "E-commerce Director",
+      "Technology Venture Capitalist",
+      "Innovation Strategist"
+    ]
+  },
+  {
+    "id": "yoshiharu_mita",
+    "name_ja": "三木谷浩史",
+    "name_en": "Hiroshi Mikitani",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "21世紀",
+    "title": "楽天創業者",
+    "personalities": {
+      "ei": 8,
+      "sn": 7,
+      "tf": 7,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 8,
+      "execution": 9,
+      "influence": 9,
+      "empathy": 6,
+      "analysis": 8,
+      "adaptability": 9,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 8
+    },
+    "mbti_type": "ESTJ",
+    "description": "三木谷浩史は、楽天を日本を代表するeコマース企業へと成長させました。彼は積極的な海外展開を進め、グローバルなビジネスネットワークを構築しました。スピード感のある経営が特徴です。",
+    "quote": "成功の反対は、挑戦しないこと",
+    "suitable_careers": [
+      "E-commerce Manager",
+      "Business Development Director",
+      "Global Strategy Consultant"
+    ]
+  },
+  {
+    "id": "lillian_vernon",
+    "name_ja": "リリアン・ヴァーノン",
+    "name_en": "Lillian Vernon",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "20世紀",
+    "title": "リリアン・ヴァーノン社創業者",
+    "personalities": {
+      "ei": 9,
+      "sn": 6,
+      "tf": 5,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 9,
+      "influence": 9,
+      "empathy": 9,
+      "analysis": 6,
+      "adaptability": 9,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 9
+    },
+    "mbti_type": "ESFJ",
+    "description": "リリアン・ヴァーノンは、リリアン・ヴァーノン社を創設し、パーソナライズされたギフトの通信販売で成功を収めました。彼女は顧客のニーズに寄り添い、優れたマーケティング戦略で事業を拡大しました。直感的なビジネスセンスを持っていました。",
+    "quote": "ビジネスには常に新しいチャンスがある",
+    "suitable_careers": [
+      "Marketing Manager",
+      "Retail Manager",
+      "E-commerce Strategist"
+    ]
+  },
+  {
+    "id": "charles_schwab",
+    "name_ja": "チャールズ・シュワブ",
+    "name_en": "Charles Schwab",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "20世紀",
+    "title": "チャールズ・シュワブ創業者",
+    "personalities": {
+      "ei": 6,
+      "sn": 7,
+      "tf": 8,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 5,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 6
+    },
+    "mbti_type": "ISTJ",
+    "description": "チャールズ・シュワブは、チャールズ・シュワブ社を創設し、低コストの証券取引サービスを提供しました。彼は個人投資家向けに金融サービスを民主化し、投資の機会を広げました。堅実な経営手腕を発揮しました。",
+    "quote": "誰もが投資家になれる",
+    "suitable_careers": [
+      "Financial Advisor",
+      "Investment Analyst",
+      "Brokerage Manager"
+    ]
+  },
+  {
+    "id": "ray_kroc",
+    "name_ja": "レイ・クロック",
+    "name_en": "Ray Kroc",
+    "category": "実業家・経営者 (世界・日本)",
+    "era": "20世紀",
+    "title": "マクドナルド創業者",
+    "personalities": {
+      "ei": 8,
+      "sn": 6,
+      "tf": 7,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 10,
+      "influence": 9,
+      "empathy": 5,
+      "analysis": 8,
+      "adaptability": 7,
+      "resilience": 10,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "ESTJ",
+    "description": "レイ・クロックは、マクドナルド兄弟のハンバーガー店をフランチャイズ化し、世界的なファストフードチェーンへと成長させました。彼は効率的なオペレーションと徹底した品質管理を重視しました。粘り強い交渉力を持っていました。",
+    "quote": "成功とは、情熱を持ち続けること",
+    "suitable_careers": [
+      "Restaurant Manager",
+      "Franchise Consultant",
+      "Operations Director"
+    ]
+  },
+  {
+    "id": "einstein",
+    "name_ja": "アルベルト・アインシュタイン",
+    "name_en": "Albert Einstein",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "20th Century",
+    "title": "相対性理論の父",
+    "personalities": {
+      "ei": 3,
+      "sn": 3,
+      "tf": 9,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 10,
+      "execution": 6,
+      "influence": 8,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 10,
+      "charisma": 6
+    },
+    "mbti_type": "INTP",
+    "description": "アインシュタインは、理論物理学者として、特に相対性理論で知られています。彼の知的好奇心と深い思考力は、物理学の世界に革命をもたらしました。平和主義者としても知られ、社会問題にも積極的に発言しました。",
+    "quote": "想像力は知識よりも重要である。知識には限界がある。想像力は世界を包み込む。",
+    "suitable_careers": [
+      "Theoretical Physicist",
+      "University Professor",
+      "Research Scientist"
+    ]
+  },
+  {
+    "id": "curie",
+    "name_ja": "マリー・キュリー",
+    "name_en": "Marie Curie",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "19th Century",
+    "title": "放射能研究の先駆者",
+    "personalities": {
+      "ei": 4,
+      "sn": 5,
+      "tf": 9,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 9,
+      "influence": 7,
+      "empathy": 5,
+      "analysis": 10,
+      "adaptability": 6,
+      "resilience": 10,
+      "visionary": 9,
+      "charisma": 5
+    },
+    "mbti_type": "INTJ",
+    "description": "キュリー夫人は、放射能の研究でノーベル賞を二度受賞した、卓越した化学者・物理学者です。彼女の強い意志と粘り強さは、研究における困難を乗り越え、科学の進歩に大きく貢献しました。また、女性科学者の道を切り開いたパイオニアでもあります。",
+    "quote": "人生において恐れるべきものは何もない。理解すべきことのみである。",
+    "suitable_careers": [
+      "Nuclear Physicist",
+      "Materials Scientist",
+      "Research Director"
+    ]
+  },
+  {
+    "id": "newton",
+    "name_ja": "アイザック・ニュートン",
+    "name_en": "Isaac Newton",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "17th Century",
+    "title": "万有引力の法則の発見者",
+    "personalities": {
+      "ei": 2,
+      "sn": 4,
+      "tf": 10,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 8,
+      "execution": 9,
+      "influence": 7,
+      "empathy": 3,
+      "analysis": 10,
+      "adaptability": 6,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 5
+    },
+    "mbti_type": "INTJ",
+    "description": "ニュートンは、物理学、数学、天文学において革新的な業績を残した偉大な科学者です。彼の厳密な思考力と論理的なアプローチは、科学史に大きな影響を与えました。また、錬金術にも関心を持っていたことが知られています。",
+    "quote": "もし私が人より遠くを見ることができたとすれば、それは巨人の肩の上に立っていたからである。",
+    "suitable_careers": [
+      "Data Scientist",
+      "Theoretical Mathematician",
+      "Software Engineer"
+    ]
+  },
+  {
+    "id": "tesla",
+    "name_ja": "ニコラ・テスラ",
+    "name_en": "Nikola Tesla",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "19th Century",
+    "title": "交流電流システムの開発者",
+    "personalities": {
+      "ei": 4,
+      "sn": 6,
+      "tf": 8,
+      "jp": 2
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 10,
+      "execution": 7,
+      "influence": 9,
+      "empathy": 5,
+      "analysis": 9,
+      "adaptability": 8,
+      "resilience": 7,
+      "visionary": 10,
+      "charisma": 8
+    },
+    "mbti_type": "INTP",
+    "description": "テスラは、交流電流システムや無線通信など、数々の革新的な発明を行った発明家・技術者です。彼の独創的な発想力と未来を見据えたビジョンは、現代社会の基盤を築きました。しかし、その才能はしばしば正当に評価されなかったとも言われています。",
+    "quote": "現代科学は深遠なものではなく、表面的なものしか見ていない。真の科学は、何世紀も前に存在した。",
+    "suitable_careers": [
+      "Electrical Engineer",
+      "R&D Scientist",
+      "Technology Consultant"
+    ]
+  },
+  {
+    "id": "asakawa",
+    "name_ja": "浅川 巧",
+    "name_en": "Takumi Asakawa",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "20th Century",
+    "title": "朝鮮林業の父",
+    "personalities": {
+      "ei": 6,
+      "sn": 7,
+      "tf": 6,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 7,
+      "execution": 10,
+      "influence": 8,
+      "empathy": 8,
+      "analysis": 8,
+      "adaptability": 9,
+      "resilience": 10,
+      "visionary": 7,
+      "charisma": 7
+    },
+    "mbti_type": "ESTJ",
+    "description": "浅川巧は、朝鮮半島の林業発展に貢献した林学者です。彼の実行力と現地への深い理解は、荒廃した山々を緑豊かな森へと変えました。また、朝鮮の文化や人々に対する深い愛情を持ち、その尊重の念を持って活動しました。",
+    "quote": "山は生きている。人間の手によって活かされ、人の心を映す鏡となる。",
+    "suitable_careers": [
+      "Environmental Consultant",
+      "Forest Manager",
+      "Agricultural Engineer"
+    ]
+  },
+  {
+    "id": "noguchi",
+    "name_ja": "野口 英世",
+    "name_en": "Hideyo Noguchi",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "20th Century",
+    "title": "細菌学者",
+    "personalities": {
+      "ei": 7,
+      "sn": 4,
+      "tf": 9,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 8,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 6,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 10,
+      "visionary": 7,
+      "charisma": 7
+    },
+    "mbti_type": "ENTJ",
+    "description": "野口英世は、細菌学者として黄熱病や梅毒の研究に貢献しました。幼少期の火傷を乗り越え、医学の道に進み、不屈の精神で研究に打ち込みました。彼の情熱と努力は、感染症の研究に大きな影響を与えました。",
+    "quote": "忍耐は希望を生む。",
+    "suitable_careers": [
+      "Medical Researcher",
+      "Epidemiologist",
+      "Pharmaceutical Scientist"
+    ]
+  },
+  {
+    "id": "shibasaburo_kitasato",
+    "name_ja": "北里 柴三郎",
+    "name_en": "Shibasaburo Kitasato",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "19th Century",
+    "title": "細菌学の父",
+    "personalities": {
+      "ei": 5,
+      "sn": 6,
+      "tf": 9,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 8,
+      "execution": 10,
+      "influence": 9,
+      "empathy": 6,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "ISTJ",
+    "description": "北里柴三郎は、細菌学の分野で免疫学の基礎を築いた医学者です。破傷風の治療法開発やペスト菌の発見など、感染症の克服に大きく貢献しました。また、日本の医学教育にも尽力し、多くの人材を育成しました。",
+    "quote": "百聞は一見にしかず。自分で確かめよ。",
+    "suitable_careers": [
+      "Medical Director",
+      "Public Health Official",
+      "Research Professor"
+    ]
+  },
+  {
+    "id": "galileo",
+    "name_ja": "ガリレオ・ガリレイ",
+    "name_en": "Galileo Galilei",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "16th Century",
+    "title": "天文学者、物理学者",
+    "personalities": {
+      "ei": 5,
+      "sn": 6,
+      "tf": 9,
+      "jp": 5
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 7,
+      "influence": 9,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "ENTP",
+    "description": "ガリレオは、望遠鏡を用いた天体観測により、地動説を支持し、科学革命に貢献しました。観察力と論理的思考力を駆使し、既存の知識体系に挑戦しました。その進歩的な考え方は、当時の権力者との対立を生みましたが、科学の発展に不可欠なものでした。",
+    "quote": "それでも地球は動く。",
+    "suitable_careers": [
+      "Astronomer",
+      "Physics Professor",
+      "Science Communicator"
+    ]
+  },
+  {
+    "id": "edison",
+    "name_ja": "トーマス・エジソン",
+    "name_en": "Thomas Edison",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "19th Century",
+    "title": "発明王",
+    "personalities": {
+      "ei": 9,
+      "sn": 7,
+      "tf": 8,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 9,
+      "execution": 10,
+      "influence": 10,
+      "empathy": 6,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 10,
+      "visionary": 8,
+      "charisma": 9
+    },
+    "mbti_type": "ESTP",
+    "description": "エジソンは、電球、蓄音機、映画など、数多くの発明で世界を変えた発明家です。実践的なアプローチと粘り強い努力によって、数々の実用的な発明を成し遂げました。ビジネスセンスにも長け、発明を社会に普及させることにも成功しました。",
+    "quote": "天才とは、1パーセントのひらめきと99パーセントの努力である。",
+    "suitable_careers": [
+      "Inventor",
+      "Entrepreneur",
+      "Product Developer"
+    ]
+  },
+  {
+    "id": "honma",
+    "name_ja": "本間 琢斎",
+    "name_en": "Takusai Honma",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "Edo Period",
+    "title": "測量家、地理学者",
+    "personalities": {
+      "ei": 4,
+      "sn": 9,
+      "tf": 7,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 7,
+      "execution": 9,
+      "influence": 6,
+      "empathy": 5,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 6,
+      "charisma": 4
+    },
+    "mbti_type": "ISTJ",
+    "description": "本間琢斎は、江戸時代に伊能忠敬の測量事業を支えた測量家です。精密な測量技術と地図作成能力を持ち、日本の国土の正確な把握に貢献しました。地道な努力と正確さを追求する姿勢は、測量技術の発展に大きく寄与しました。",
+    "quote": "一里塚、一石の礎なり。",
+    "suitable_careers": [
+      "Surveyor",
+      "Geographer",
+      "Cartographer"
+    ]
+  },
+  {
+    "id": "seikichi_uemura",
+    "name_ja": "植村 正吉",
+    "name_en": "Seikichi Uemura",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "Meiji Period",
+    "title": "鉄道技術者",
+    "personalities": {
+      "ei": 7,
+      "sn": 8,
+      "tf": 8,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 7,
+      "execution": 10,
+      "influence": 7,
+      "empathy": 6,
+      "analysis": 9,
+      "adaptability": 8,
+      "resilience": 10,
+      "visionary": 7,
+      "charisma": 6
+    },
+    "mbti_type": "ESTJ",
+    "description": "植村正吉は、日本の鉄道技術の発展に貢献した技術者です。鉄道敷設やトンネル工事など、困難なプロジェクトを数多く成功させました。彼のリーダーシップと技術力は、日本の近代化に大きく貢献しました。",
+    "quote": "困難に打ち克つものは、強い意志である。",
+    "suitable_careers": [
+      "Civil Engineer",
+      "Project Manager",
+      "Transportation Planner"
+    ]
+  },
+  {
+    "id": "hawking",
+    "name_ja": "スティーヴン・ホーキング",
+    "name_en": "Stephen Hawking",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "20th Century",
+    "title": "理論物理学者、宇宙論研究者",
+    "personalities": {
+      "ei": 3,
+      "sn": 3,
+      "tf": 10,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 10,
+      "execution": 5,
+      "influence": 9,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 6,
+      "resilience": 10,
+      "visionary": 10,
+      "charisma": 7
+    },
+    "mbti_type": "INTP",
+    "description": "スティーヴン・ホーキングは、ブラックホールの研究や宇宙論において多大な貢献をした理論物理学者です。ALSという難病を患いながらも、その知性と探求心は衰えることなく、宇宙の謎に挑み続けました。彼の著書は、科学の普及にも大きく貢献しました。",
+    "quote": "知性とは、変化に適応する能力である。",
+    "suitable_careers": [
+      "Theoretical Physicist",
+      "Science Writer",
+      "University Professor"
+    ]
+  },
+  {
+    "id": "ada_lovelace",
+    "name_ja": "エイダ・ラブレス",
+    "name_en": "Ada Lovelace",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "19th Century",
+    "title": "世界初のプログラマー",
+    "personalities": {
+      "ei": 5,
+      "sn": 7,
+      "tf": 8,
+      "jp": 2
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 10,
+      "execution": 6,
+      "influence": 7,
+      "empathy": 6,
+      "analysis": 9,
+      "adaptability": 8,
+      "resilience": 8,
+      "visionary": 10,
+      "charisma": 7
+    },
+    "mbti_type": "ENTP",
+    "description": "エイダ・ラブレスは、チャールズ・バベッジが設計した解析機関の解説を執筆し、その中でアルゴリズムの概念を記述したことから、世界初のプログラマーとされています。彼女の想像力豊かな思考と数学的才能は、コンピュータ科学の基礎を築きました。また、詩人バイロンの娘としても知られています。",
+    "quote": "解析機関は、音楽を構成したり、複雑な図形を描いたりすることができる。",
+    "suitable_careers": [
+      "Computer Scientist",
+      "Software Architect",
+      "Data Analyst"
+    ]
+  },
+  {
+    "id": "tahara",
+    "name_ja": "田原 淳",
+    "name_en": "Jun Tahara",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "Meiji Period",
+    "title": "医学者",
+    "personalities": {
+      "ei": 6,
+      "sn": 8,
+      "tf": 9,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 7,
+      "execution": 9,
+      "influence": 7,
+      "empathy": 6,
+      "analysis": 10,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 7,
+      "charisma": 5
+    },
+    "mbti_type": "ISTJ",
+    "description": "田原淳は、副腎髄質からアドレナリンを発見したことで知られる日本の医学者です。彼の分析的思考力と実験への真摯な取り組みは、内分泌学の発展に大きく貢献しました。また、医学教育にも力を注ぎ、後進の育成に尽力しました。",
+    "quote": "真理探究に終わりなし。",
+    "suitable_careers": [
+      "Endocrinologist",
+      "Medical Researcher",
+      "Professor of Medicine"
+    ]
+  },
+  {
+    "id": "yagi",
+    "name_ja": "八木 秀次",
+    "name_en": "Hidetsugu Yagi",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "Showa Period",
+    "title": "工学者",
+    "personalities": {
+      "ei": 5,
+      "sn": 7,
+      "tf": 8,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 8,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 6,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 6
+    },
+    "mbti_type": "ISTJ",
+    "description": "八木秀次は、八木・宇田アンテナを宇田新太郎と共に発明した電気工学者です。彼の理論的知識と実践的な実験技術が、現代の無線通信技術に不可欠なアンテナの開発を可能にしました。国際的にも高い評価を受け、日本の科学技術の発展に貢献しました。",
+    "quote": "科学に国境はないが、科学者には祖国がある。",
+    "suitable_careers": [
+      "Electrical Engineer",
+      "Communications Engineer",
+      "Research and Development Scientist"
+    ]
+  },
+  {
+    "id": "fukushima",
+    "name_ja": "福島 孝治",
+    "name_en": "Kunihiko Fukushima",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "20th Century",
+    "title": "情報科学者",
+    "personalities": {
+      "ei": 4,
+      "sn": 6,
+      "tf": 9,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 7,
+      "influence": 6,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 9,
+      "charisma": 4
+    },
+    "mbti_type": "INTJ",
+    "description": "福島孝治は、ネオコグニトロンを発明したことで知られる情報科学者です。彼の先駆的な研究は、深層学習の基礎となり、現代のAI技術の発展に大きく貢献しました。その独創的な発想力と深い洞察力は、情報科学の分野に新たな地平を切り開きました。",
+    "quote": "未知なるものを探求する喜び。",
+    "suitable_careers": [
+      "AI Researcher",
+      "Computer Vision Scientist",
+      "Machine Learning Engineer"
+    ]
+  },
+  {
+    "id": "enrico_fermi",
+    "name_ja": "エンリコ・フェルミ",
+    "name_en": "Enrico Fermi",
+    "category": "科学者・発明家 (世界・日本)",
+    "era": "20th Century",
+    "title": "物理学者",
+    "personalities": {
+      "ei": 5,
+      "sn": 7,
+      "tf": 9,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 8,
+      "execution": 10,
+      "influence": 8,
+      "empathy": 5,
+      "analysis": 10,
+      "adaptability": 8,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "ISTJ",
+    "description": "エンリコ・フェルミは、原子物理学と核物理学に大きな貢献をした物理学者です。世界初の原子炉を開発し、核エネルギーの利用に道を開きました。また、統計力学の分野でも重要な業績を残し、多くの優れた物理学者を育成しました。",
+    "quote": "疑問に答えるよりも、疑問を持つ方が難しい。",
+    "suitable_careers": [
+      "Nuclear Physicist",
+      "Professor of Physics",
+      "Research Scientist"
+    ]
+  },
+  {
+    "id": "leonardo_da_vinci",
+    "name_ja": "レオナルド・ダ・ヴィンチ",
+    "name_en": "Leonardo da Vinci",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "ルネサンス",
+    "title": "万能の天才",
+    "personalities": {
+      "ei": 4,
+      "sn": 4,
+      "tf": 8,
+      "jp": 2
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 10,
+      "execution": 9,
+      "influence": 7,
+      "empathy": 5,
+      "analysis": 10,
+      "adaptability": 9,
+      "resilience": 7,
+      "visionary": 10,
+      "charisma": 6
+    },
+    "mbti_type": "INTP",
+    "description": "レオナルド・ダ・ヴィンチは、科学、工学、美術において比類なき才能を発揮したルネサンス期の巨匠です。彼の探求心と分析力は、モナリザのような不朽の名作を生み出し、後世に多大な影響を与えました。理論と実践を結びつけるその姿勢は、まさに天才と呼ぶにふさわしい。",
+    "quote": "単純さは究極の洗練である。",
+    "suitable_careers": [
+      "研究開発者",
+      "建築家",
+      "発明家"
+    ]
+  },
+  {
+    "id": "mozart",
+    "name_ja": "モーツァルト",
+    "name_en": "Wolfgang Amadeus Mozart",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "古典派",
+    "title": "音楽の神童",
+    "personalities": {
+      "ei": 7,
+      "sn": 3,
+      "tf": 4,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 10,
+      "execution": 10,
+      "influence": 8,
+      "empathy": 6,
+      "analysis": 6,
+      "adaptability": 8,
+      "resilience": 6,
+      "visionary": 8,
+      "charisma": 9
+    },
+    "mbti_type": "ENFP",
+    "description": "モーツァルトは、幼少期からその音楽的才能を発揮し、数々の傑作を生み出した天才作曲家です。彼の作品は、感情豊かでドラマチックであり、オペラ、交響曲、協奏曲など、あらゆるジャンルにおいて革新的な影響を与えました。その短い生涯の中で、膨大な数の作品を残し、音楽史に名を刻みました。",
+    "quote": "私は、苦しみを理解することで、癒しを生み出すことができる。",
+    "suitable_careers": [
+      "作曲家",
+      "音楽プロデューサー",
+      "音楽講師"
+    ]
+  },
+  {
+    "id": "shakespeare",
+    "name_ja": "シェイクスピア",
+    "name_en": "William Shakespeare",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "ルネサンス",
+    "title": "劇聖",
+    "personalities": {
+      "ei": 6,
+      "sn": 6,
+      "tf": 5,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 10,
+      "execution": 9,
+      "influence": 10,
+      "empathy": 9,
+      "analysis": 8,
+      "adaptability": 9,
+      "resilience": 8,
+      "visionary": 9,
+      "charisma": 9
+    },
+    "mbti_type": "ENFJ",
+    "description": "シェイクスピアは、英語圏最大の劇作家であり、詩人として世界的に知られています。人間の心理を深く洞察し、普遍的なテーマを描いた彼の作品は、時代を超えて多くの人々に感動を与え続けています。彼の言葉は、豊かな表現力と深い哲学を含み、現代においても引用されることが多い。",
+    "quote": "生きるべきか、死ぬべきか、それが問題だ。",
+    "suitable_careers": [
+      "脚本家",
+      "小説家",
+      "演劇演出家"
+    ]
+  },
+  {
+    "id": "van_gogh",
+    "name_ja": "フィンセント・ファン・ゴッホ",
+    "name_en": "Vincent van Gogh",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "19世紀",
+    "title": "炎の画家",
+    "personalities": {
+      "ei": 3,
+      "sn": 4,
+      "tf": 2,
+      "jp": 3
+    },
+    "talents": {
+      "strategic": 4,
+      "ideation": 9,
+      "execution": 9,
+      "influence": 7,
+      "empathy": 8,
+      "analysis": 3,
+      "adaptability": 6,
+      "resilience": 5,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "INFP",
+    "description": "ゴッホは、強烈な色彩と感情表現で知られる、ポスト印象派の代表的な画家です。生前は評価されませんでしたが、死後、その作品は世界中で高く評価され、多くの人々に感動を与えています。彼の作品には、苦悩と情熱が込められており、観る人の心を揺さぶります。",
+    "quote": "私は夢を見て、夢を描く。",
+    "suitable_careers": [
+      "画家",
+      "アートセラピスト",
+      "イラストレーター"
+    ]
+  },
+  {
+    "id": "kurosawa_akira",
+    "name_ja": "黒澤明",
+    "name_en": "Akira Kurosawa",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "20世紀",
+    "title": "世界のクロサワ",
+    "personalities": {
+      "ei": 5,
+      "sn": 7,
+      "tf": 7,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 9,
+      "execution": 10,
+      "influence": 10,
+      "empathy": 7,
+      "analysis": 9,
+      "adaptability": 8,
+      "resilience": 9,
+      "visionary": 10,
+      "charisma": 9
+    },
+    "mbti_type": "ENTJ",
+    "description": "黒澤明は、世界的に有名な日本の映画監督です。時代劇から現代劇まで、幅広いジャンルを手がけ、その映像美と人間ドラマは、世界中の映画ファンを魅了しました。彼の作品は、普遍的なテーマを描きながら、独自のスタイルを確立し、後世の映画監督に大きな影響を与えました。",
+    "quote": "映画は、人間の内面を映し出す鏡である。",
+    "suitable_careers": [
+      "映画監督",
+      "プロデューサー",
+      "クリエイティブディレクター"
+    ]
+  },
+  {
+    "id": "fridakahlo",
+    "name_ja": "フリーダ・カーロ",
+    "name_en": "Frida Kahlo",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "20世紀",
+    "title": "苦悩と情熱の画家",
+    "personalities": {
+      "ei": 4,
+      "sn": 3,
+      "tf": 2,
+      "jp": 5
+    },
+    "talents": {
+      "strategic": 5,
+      "ideation": 9,
+      "execution": 9,
+      "influence": 9,
+      "empathy": 10,
+      "analysis": 6,
+      "adaptability": 7,
+      "resilience": 10,
+      "visionary": 8,
+      "charisma": 9
+    },
+    "mbti_type": "INFP",
+    "description": "フリーダ・カーロは、メキシコを代表する女性画家です。自身の身体的苦痛や感情的な葛藤を、鮮烈な色彩と象徴的なイメージで表現した自画像は、多くの人々に共感を与えています。彼女の作品は、自己表現の強さと、女性としてのアイデンティティを探求する姿勢を示しています。",
+    "quote": "私は一人でいることがよくあります。なぜなら、誰も私のようには私を愛せないからです。",
+    "suitable_careers": [
+      "画家",
+      "ソーシャルワーカー",
+      "人権活動家"
+    ]
+  },
+  {
+    "id": "jane_austen",
+    "name_ja": "ジェーン・オースティン",
+    "name_en": "Jane Austen",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "19世紀",
+    "title": "風刺とユーモアの作家",
+    "personalities": {
+      "ei": 4,
+      "sn": 6,
+      "tf": 7,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 8,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 8,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 7,
+      "charisma": 7
+    },
+    "mbti_type": "ISTJ",
+    "description": "ジェーン・オースティンは、19世紀初頭のイギリスを舞台に、中流階級の日常生活や恋愛を描いた小説家です。『高慢と偏見』などの作品は、鋭い観察眼とユーモアに満ちており、時代を超えて愛されています。彼女の作品は、社会の構造や人間の心理を深く考察し、文学史に大きな足跡を残しました。",
+    "quote": "私には、本を読まずに一日を終えることはできません。",
+    "suitable_careers": [
+      "小説家",
+      "編集者",
+      "大学教授 (文学)"
+    ]
+  },
+  {
+    "id": "pablo_picasso",
+    "name_ja": "パブロ・ピカソ",
+    "name_en": "Pablo Picasso",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "20世紀",
+    "title": "キュビスムの創始者",
+    "personalities": {
+      "ei": 8,
+      "sn": 6,
+      "tf": 5,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 10,
+      "execution": 9,
+      "influence": 10,
+      "empathy": 7,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 8,
+      "visionary": 10,
+      "charisma": 10
+    },
+    "mbti_type": "ENTP",
+    "description": "パブロ・ピカソは、20世紀を代表する画家であり、キュビスムの創始者として知られています。様々な様式を試み、常に新しい表現を追求し続け、美術界に大きな影響を与えました。彼の作品は、独創的な発想と革新的な技術によって、世界中の人々を魅了しています。",
+    "quote": "私は探すのではなく、見つける。",
+    "suitable_careers": [
+      "画家",
+      "デザイナー",
+      "アートディレクター"
+    ]
+  },
+  {
+    "id": "leonard_bernstein",
+    "name_ja": "レナード・バーンスタイン",
+    "name_en": "Leonard Bernstein",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "20世紀",
+    "title": "音楽の伝道師",
+    "personalities": {
+      "ei": 9,
+      "sn": 6,
+      "tf": 6,
+      "jp": 5
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 10,
+      "influence": 10,
+      "empathy": 8,
+      "analysis": 8,
+      "adaptability": 9,
+      "resilience": 8,
+      "visionary": 9,
+      "charisma": 10
+    },
+    "mbti_type": "ENFJ",
+    "description": "レナード・バーンスタインは、作曲家、指揮者、ピアニスト、教育者として多岐にわたり活躍した音楽家です。『ウエスト・サイド物語』などの作品は、彼の才能を示す代表的な例です。彼は音楽を通して人々に感動を与え、音楽教育にも力を注ぎました。",
+    "quote": "音楽は、人間の心を理解するための鍵である。",
+    "suitable_careers": [
+      "指揮者",
+      "作曲家",
+      "音楽教育者"
+    ]
+  },
+  {
+    "id": "haruki_murakami",
+    "name_ja": "村上春樹",
+    "name_en": "Haruki Murakami",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "現代",
+    "title": "現代文学の旗手",
+    "personalities": {
+      "ei": 4,
+      "sn": 7,
+      "tf": 6,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 6,
+      "ideation": 9,
+      "execution": 8,
+      "influence": 9,
+      "empathy": 7,
+      "analysis": 8,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 8
+    },
+    "mbti_type": "INTP",
+    "description": "村上春樹は、世界的に人気のある日本の小説家です。独特な文体と、現代社会の孤独や喪失感を描いた作品は、多くの読者の心を捉えています。彼の作品は、翻訳を通じて世界中に広がり、現代文学の代表的な存在として認められています。",
+    "quote": "人は、何かに傷つき、それを乗り越えることで成長する。",
+    "suitable_careers": [
+      "小説家",
+      "翻訳家",
+      "エッセイスト"
+    ]
+  },
+  {
+    "id": "hayao_miyazaki",
+    "name_ja": "宮崎駿",
+    "name_en": "Hayao Miyazaki",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "現代",
+    "title": "アニメーションの巨匠",
+    "personalities": {
+      "ei": 3,
+      "sn": 8,
+      "tf": 5,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 10,
+      "execution": 10,
+      "influence": 10,
+      "empathy": 8,
+      "analysis": 7,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 10,
+      "charisma": 9
+    },
+    "mbti_type": "INTJ",
+    "description": "宮崎駿は、日本を代表するアニメーション映画監督です。自然や人間の共存、平和への願いをテーマにした作品は、世界中で愛されています。彼の作品は、美しい映像と深いメッセージ性で、子供から大人まで幅広い世代に感動を与え続けています。",
+    "quote": "アニメーションは、世界を変える力を持っている。",
+    "suitable_careers": [
+      "アニメーション監督",
+      "ストーリーボードアーティスト",
+      "環境保護活動家"
+    ]
+  },
+  {
+    "id": "tori_amos",
+    "name_ja": "トーリ・エイモス",
+    "name_en": "Tori Amos",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "現代",
+    "title": "ピアノの詩人",
+    "personalities": {
+      "ei": 5,
+      "sn": 4,
+      "tf": 3,
+      "jp": 4
+    },
+    "talents": {
+      "strategic": 6,
+      "ideation": 10,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 9,
+      "analysis": 7,
+      "adaptability": 8,
+      "resilience": 8,
+      "visionary": 9,
+      "charisma": 8
+    },
+    "mbti_type": "INFP",
+    "description": "トーリ・エイモスは、アメリカのシンガーソングライター、ピアニストです。感情豊かで内省的な歌詞と、独特なピアノ演奏は、多くのファンを魅了しています。彼女の作品は、女性の権利や社会問題にも積極的に取り組んでおり、強いメッセージ性を持っています。",
+    "quote": "私は、自分の声を通して、人々に力を与えたい。",
+    "suitable_careers": [
+      "シンガーソングライター",
+      "音楽療法士",
+      "フェミニスト活動家"
+    ]
+  },
+  {
+    "id": "rembrandt",
+    "name_ja": "レンブラント",
+    "name_en": "Rembrandt",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "バロック",
+    "title": "光と影の魔術師",
+    "personalities": {
+      "ei": 3,
+      "sn": 5,
+      "tf": 6,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 8,
+      "execution": 9,
+      "influence": 8,
+      "empathy": 8,
+      "analysis": 8,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 7,
+      "charisma": 7
+    },
+    "mbti_type": "ISTJ",
+    "description": "レンブラントは、17世紀のオランダを代表する画家であり、光と影の表現に優れた作品を多く残しました。人物の内面を深く描き出し、人間味あふれる表現は、観る人の心を捉えます。彼の作品は、バロック美術の傑作として、世界中で高く評価されています。",
+    "quote": "画家は、自分が見たものを描くのではなく、感じるものを描くべきだ。",
+    "suitable_careers": [
+      "画家",
+      "美術館学芸員",
+      "美術史家"
+    ]
+  },
+  {
+    "id": "george_orwell",
+    "name_ja": "ジョージ・オーウェル",
+    "name_en": "George Orwell",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "20世紀",
+    "title": "社会批判の巨匠",
+    "personalities": {
+      "ei": 4,
+      "sn": 7,
+      "tf": 8,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 9,
+      "execution": 9,
+      "influence": 10,
+      "empathy": 7,
+      "analysis": 10,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 10,
+      "charisma": 8
+    },
+    "mbti_type": "INTJ",
+    "description": "ジョージ・オーウェルは、20世紀を代表するイギリスの作家です。『1984年』や『動物農場』などの作品は、全体主義社会の危険性を鋭く批判し、現代社会にも通じる普遍的なテーマを扱っています。彼の作品は、社会正義と自由を訴え、多くの人々に影響を与えました。",
+    "quote": "自由とは、人々が聞きたくないことを聞く権利である。",
+    "suitable_careers": [
+      "ジャーナリスト",
+      "政治評論家",
+      "人権活動家"
+    ]
+  },
+  {
+    "id": "agatha_christie",
+    "name_ja": "アガサ・クリスティ",
+    "name_en": "Agatha Christie",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "20世紀",
+    "title": "ミステリーの女王",
+    "personalities": {
+      "ei": 5,
+      "sn": 8,
+      "tf": 8,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 9,
+      "execution": 9,
+      "influence": 9,
+      "empathy": 7,
+      "analysis": 10,
+      "adaptability": 8,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "ISTJ",
+    "description": "アガサ・クリスティは、世界で最も売れたミステリー作家の一人です。エルキュール・ポアロやミス・マープルといった名探偵を生み出し、緻密な構成と巧妙なトリックで読者を魅了しました。彼女の作品は、世界中で翻訳され、映画やドラマなど、様々な形で楽しまれています。",
+    "quote": "偶然は、準備のできた心だけに微笑む。",
+    "suitable_careers": [
+      "小説家",
+      "脚本家",
+      "犯罪心理学者"
+    ]
+  },
+  {
+    "id": "bob_dylan",
+    "name_ja": "ボブ・ディラン",
+    "name_en": "Bob Dylan",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "現代",
+    "title": "フォークの吟遊詩人",
+    "personalities": {
+      "ei": 6,
+      "sn": 5,
+      "tf": 4,
+      "jp": 5
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 10,
+      "execution": 9,
+      "influence": 10,
+      "empathy": 8,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 8,
+      "visionary": 9,
+      "charisma": 9
+    },
+    "mbti_type": "ENFP",
+    "description": "ボブ・ディランは、アメリカのシンガーソングライターであり、フォークミュージックの代表的な存在です。社会的なメッセージを込めた歌詞と、独特な歌声は、多くの若者に影響を与えました。彼は音楽を通して、平和や人権を訴え、社会運動にも貢献しました。",
+    "quote": "人は、自分が見た世界を歌うべきだ。",
+    "suitable_careers": [
+      "シンガーソングライター",
+      "社会活動家",
+      "詩人"
+    ]
+  },
+  {
+    "id": "jimi_hendrix",
+    "name_ja": "ジミ・ヘンドリックス",
+    "name_en": "Jimi Hendrix",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "20世紀",
+    "title": "ギターの革命児",
+    "personalities": {
+      "ei": 8,
+      "sn": 4,
+      "tf": 3,
+      "jp": 5
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 10,
+      "execution": 10,
+      "influence": 9,
+      "empathy": 7,
+      "analysis": 6,
+      "adaptability": 9,
+      "resilience": 7,
+      "visionary": 9,
+      "charisma": 10
+    },
+    "mbti_type": "ENFP",
+    "description": "ジミ・ヘンドリックスは、アメリカのギタリストであり、ロックミュージックの歴史を変えた革新的な存在です。彼の独創的なギター奏法と、圧倒的なパフォーマンスは、多くのミュージシャンに影響を与えました。彼は短い生涯でしたが、音楽史に名を刻む伝説となりました。",
+    "quote": "音楽は、言葉よりも雄弁である。",
+    "suitable_careers": [
+      "ギタリスト",
+      "音楽プロデューサー",
+      "作曲家"
+    ]
+  },
+  {
+    "id": "coco_chanel",
+    "name_ja": "ココ・シャネル",
+    "name_en": "Coco Chanel",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "20世紀",
+    "title": "ファッションの先駆者",
+    "personalities": {
+      "ei": 7,
+      "sn": 7,
+      "tf": 8,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 10,
+      "execution": 10,
+      "influence": 10,
+      "empathy": 7,
+      "analysis": 8,
+      "adaptability": 9,
+      "resilience": 9,
+      "visionary": 10,
+      "charisma": 10
+    },
+    "mbti_type": "ENTJ",
+    "description": "ココ・シャネルは、フランスのファッションデザイナーであり、シャネルの創業者です。従来の女性の服装の概念を覆し、自由で機能的なスタイルを提案しました。彼女のデザインは、現代女性の生き方に大きな影響を与え、ファッション史に名を残しました。",
+    "quote": "ファッションは移り変わるが、スタイルは永遠だ。",
+    "suitable_careers": [
+      "ファッションデザイナー",
+      "ブランドディレクター",
+      "経営者"
+    ]
+  },
+  {
+    "id": "osamu_tezuka",
+    "name_ja": "手塚治虫",
+    "name_en": "Osamu Tezuka",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "20世紀",
+    "title": "漫画の神様",
+    "personalities": {
+      "ei": 6,
+      "sn": 8,
+      "tf": 6,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 10,
+      "execution": 10,
+      "influence": 10,
+      "empathy": 8,
+      "analysis": 7,
+      "adaptability": 9,
+      "resilience": 9,
+      "visionary": 10,
+      "charisma": 9
+    },
+    "mbti_type": "ENFJ",
+    "description": "手塚治虫は、日本を代表する漫画家であり、「漫画の神様」と呼ばれています。『鉄腕アトム』や『ジャングル大帝』など、数々の名作を生み出し、日本の漫画文化の発展に大きく貢献しました。彼の作品は、人間愛や平和への願いをテーマにしており、世界中の人々に感動を与え続けています。",
+    "quote": "漫画は、すべての人のための芸術である。",
+    "suitable_careers": [
+      "漫画家",
+      "アニメーション監督",
+      "ストーリーボードアーティスト"
+    ]
+  },
+  {
+    "id": "yasujiro_ozu",
+    "name_ja": "小津安二郎",
+    "name_en": "Yasujiro Ozu",
+    "category": "芸術家・クリエイター (画家、音楽家、作家)",
+    "era": "20世紀",
+    "title": "日本の家庭を描く名匠",
+    "personalities": {
+      "ei": 3,
+      "sn": 6,
+      "tf": 7,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 7,
+      "execution": 10,
+      "influence": 9,
+      "empathy": 8,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 7,
+      "charisma": 7
+    },
+    "mbti_type": "ISTJ",
+    "description": "小津安二郎は、日本の映画監督であり、日本の家庭や人間関係を繊細に描いた作品で知られています。ローアングルからの映像や、固定カメラによる撮影など、独特のスタイルを確立しました。彼の作品は、静かで穏やかな雰囲気の中に、深い人間ドラマが込められています。",
+    "quote": "映画は、人生を映す鏡である。",
+    "suitable_careers": [
+      "映画監督",
+      "脚本家",
+      "撮影監督"
+    ]
+  },
+  {
+    "id": "confucius",
+    "name_ja": "孔子",
+    "name_en": "Confucius",
+    "category": "哲学者・思想家・活動家",
+    "era": "春秋時代",
+    "title": "儒教の創始者",
+    "personalities": {
+      "ei": 4,
+      "sn": 3,
+      "tf": 7,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 7,
+      "influence": 10,
+      "empathy": 6,
+      "analysis": 8,
+      "adaptability": 6,
+      "resilience": 9,
+      "visionary": 9,
+      "charisma": 8
+    },
+    "mbti_type": "INTJ",
+    "description": "孔子は、道徳、礼儀、倫理に基づいた社会秩序を重視した儒教の創始者です。彼の教えは、後世の中国社会に深い影響を与え、教育、政治、文化の基盤となりました。彼は、人々がより良く生きるための道を模索し続けました。",
+    "quote": "己の欲せざる所は、人に施すこと勿れ。",
+    "suitable_careers": [
+      "倫理コンサルタント",
+      "教育者",
+      "政策立案者"
+    ]
+  },
+  {
+    "id": "socrates",
+    "name_ja": "ソクラテス",
+    "name_en": "Socrates",
+    "category": "哲学者・思想家・活動家",
+    "era": "古代ギリシャ",
+    "title": "西洋哲学の祖",
+    "personalities": {
+      "ei": 6,
+      "sn": 4,
+      "tf": 8,
+      "jp": 3
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 10,
+      "execution": 4,
+      "influence": 9,
+      "empathy": 5,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 7,
+      "charisma": 8
+    },
+    "mbti_type": "ENTP",
+    "description": "ソクラテスは、絶え間ない問いかけを通じて真理を追求した古代ギリシャの哲学者です。彼の方法は、人々に自身の無知を自覚させ、自ら考える力を養うことを目的としていました。彼は、既存の価値観を批判し、倫理的な生活の重要性を説きました。",
+    "quote": "無知の知",
+    "suitable_careers": [
+      "弁護士",
+      "大学教授",
+      "ジャーナリスト"
+    ]
+  },
+  {
+    "id": "plato",
+    "name_ja": "プラトン",
+    "name_en": "Plato",
+    "category": "哲学者・思想家・活動家",
+    "era": "古代ギリシャ",
+    "title": "理想国家の提唱者",
+    "personalities": {
+      "ei": 3,
+      "sn": 3,
+      "tf": 9,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 10,
+      "execution": 6,
+      "influence": 8,
+      "empathy": 4,
+      "analysis": 9,
+      "adaptability": 5,
+      "resilience": 8,
+      "visionary": 10,
+      "charisma": 7
+    },
+    "mbti_type": "INTJ",
+    "description": "プラトンは、イデア論を提唱し、理想国家の構想を描いた古代ギリシャの哲学者です。彼は、哲人王による統治を理想とし、知識と正義を重視しました。彼の哲学は、西洋思想の基盤を築き、政治、倫理、形而上学に大きな影響を与えました。",
+    "quote": "善き人が傷つけられるのを黙って見ていることは、それ自体が悪である。",
+    "suitable_careers": [
+      "政治コンサルタント",
+      "未来学者",
+      "研究者"
+    ]
+  },
+  {
+    "id": "aristotle",
+    "name_ja": "アリストテレス",
+    "name_en": "Aristotle",
+    "category": "哲学者・思想家・活動家",
+    "era": "古代ギリシャ",
+    "title": "万学の祖",
+    "personalities": {
+      "ei": 5,
+      "sn": 6,
+      "tf": 8,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 8,
+      "influence": 7,
+      "empathy": 6,
+      "analysis": 10,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 6
+    },
+    "mbti_type": "ENTJ",
+    "description": "アリストテレスは、論理学、自然学、倫理学など、幅広い分野にわたる知識体系を構築した古代ギリシャの哲学者です。彼は、観察と分析に基づいた経験主義的なアプローチを重視しました。彼の哲学は、中世ヨーロッパのスコラ哲学に大きな影響を与えました。",
+    "quote": "全体は部分の総和以上のものである。",
+    "suitable_careers": [
+      "データアナリスト",
+      "経営コンサルタント",
+      "科学者"
+    ]
+  },
+  {
+    "id": "augustine",
+    "name_ja": "アウグスティヌス",
+    "name_en": "Augustine of Hippo",
+    "category": "哲学者・思想家・活動家",
+    "era": "古代ローマ",
+    "title": "キリスト教神学者",
+    "personalities": {
+      "ei": 2,
+      "sn": 3,
+      "tf": 6,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 9,
+      "execution": 6,
+      "influence": 8,
+      "empathy": 7,
+      "analysis": 8,
+      "adaptability": 6,
+      "resilience": 9,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "INTP",
+    "description": "アウグスティヌスは、キリスト教の教義を体系化した古代ローマの神学者です。彼の著作『告白』は、自己の内面を探求した最初の自伝文学として知られています。彼は、神の恩寵の重要性を説き、中世ヨーロッパの思想に大きな影響を与えました。",
+    "quote": "神よ、私を貞潔にしてください。でも、まだ急がないでください。",
+    "suitable_careers": [
+      "宗教学者",
+      "カウンセラー",
+      "作家"
+    ]
+  },
+  {
+    "id": "avicenna",
+    "name_ja": "イブン・シーナー",
+    "name_en": "Avicenna",
+    "category": "哲学者・思想家・活動家",
+    "era": "中世イスラム",
+    "title": "医学の父",
+    "personalities": {
+      "ei": 6,
+      "sn": 6,
+      "tf": 9,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 9,
+      "execution": 8,
+      "influence": 8,
+      "empathy": 6,
+      "analysis": 10,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "ENTJ",
+    "description": "イブン・シーナーは、医学、哲学、天文学など、幅広い分野に精通した中世イスラムの学者です。彼の著作『医学典範』は、ヨーロッパの医学教育において長きにわたり標準的な教科書として使用されました。彼は、医学の発展に大きく貢献しました。",
+    "quote": "想像力は、知性より重要である。",
+    "suitable_careers": [
+      "医師",
+      "研究者",
+      "科学ジャーナリスト"
+    ]
+  },
+  {
+    "id": "thomas_aquinas",
+    "name_ja": "トマス・アクィナス",
+    "name_en": "Thomas Aquinas",
+    "category": "哲学者・思想家・活動家",
+    "era": "中世ヨーロッパ",
+    "title": "スコラ哲学の巨人",
+    "personalities": {
+      "ei": 3,
+      "sn": 5,
+      "tf": 9,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 8,
+      "execution": 7,
+      "influence": 7,
+      "empathy": 5,
+      "analysis": 10,
+      "adaptability": 6,
+      "resilience": 9,
+      "visionary": 7,
+      "charisma": 6
+    },
+    "mbti_type": "INTJ",
+    "description": "トマス・アクィナスは、アリストテレスの哲学とキリスト教神学を統合した中世ヨーロッパの神学者です。彼は、理性と信仰の調和を試み、自然法思想を提唱しました。彼の哲学は、カトリック教会の教義に大きな影響を与えました。",
+    "quote": "愛は、意志が善を欲することである。",
+    "suitable_careers": [
+      "神学者",
+      "倫理コンサルタント",
+      "法学者"
+    ]
+  },
+  {
+    "id": "niccolo_machiavelli",
+    "name_ja": "ニッコロ・マキャヴェッリ",
+    "name_en": "Niccolò Machiavelli",
+    "category": "哲学者・思想家・活動家",
+    "era": "ルネサンス",
+    "title": "君主論の著者",
+    "personalities": {
+      "ei": 7,
+      "sn": 4,
+      "tf": 9,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 10,
+      "ideation": 7,
+      "execution": 9,
+      "influence": 9,
+      "empathy": 4,
+      "analysis": 9,
+      "adaptability": 8,
+      "resilience": 9,
+      "visionary": 7,
+      "charisma": 8
+    },
+    "mbti_type": "ENTJ",
+    "description": "マキャヴェッリは、政治権力の獲得と維持のための現実的な方法を論じたルネサンス期の政治思想家です。『君主論』において、彼は道徳よりも国家の利益を優先する政治観を提示しました。彼の思想は、現代政治学の基礎となりました。",
+    "quote": "目的が手段を正当化する。",
+    "suitable_careers": [
+      "政治アナリスト",
+      "戦略コンサルタント",
+      "ロビイスト"
+    ]
+  },
+  {
+    "id": "martin_luther",
+    "name_ja": "マルティン・ルター",
+    "name_en": "Martin Luther",
+    "category": "哲学者・思想家・活動家",
+    "era": "宗教改革",
+    "title": "宗教改革の火付け役",
+    "personalities": {
+      "ei": 5,
+      "sn": 2,
+      "tf": 8,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 7,
+      "influence": 10,
+      "empathy": 6,
+      "analysis": 8,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 9,
+      "charisma": 9
+    },
+    "mbti_type": "INTJ",
+    "description": "マルティン・ルターは、免罪符の販売を批判し、宗教改革の口火を切ったドイツの神学者です。彼は、聖書のみが信仰の根拠であると主張し、カトリック教会からの分離を訴えました。彼の行動は、ヨーロッパの宗教と政治に大きな変革をもたらしました。",
+    "quote": "明日、世界が終わるとしても、私はリンゴの木を植える。",
+    "suitable_careers": [
+      "宗教指導者",
+      "社会運動家",
+      "著述家"
+    ]
+  },
+  {
+    "id": "rene_descartes",
+    "name_ja": "ルネ・デカルト",
+    "name_en": "René Descartes",
+    "category": "哲学者・思想家・活動家",
+    "era": "17世紀",
+    "title": "近代哲学の父",
+    "personalities": {
+      "ei": 2,
+      "sn": 5,
+      "tf": 10,
+      "jp": 8
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 8,
+      "execution": 6,
+      "influence": 6,
+      "empathy": 3,
+      "analysis": 10,
+      "adaptability": 5,
+      "resilience": 8,
+      "visionary": 7,
+      "charisma": 4
+    },
+    "mbti_type": "INTP",
+    "description": "デカルトは、方法的懐疑を提唱し、「我思う、ゆえに我あり」という命題を確立したフランスの哲学者です。彼は、理性に基づいて世界を認識しようと試み、近代哲学の基礎を築きました。彼の哲学は、科学と数学の発展にも貢献しました。",
+    "quote": "我思う、ゆえに我あり。",
+    "suitable_careers": [
+      "数学者",
+      "プログラマー",
+      "哲学者"
+    ]
+  },
+  {
+    "id": "john_locke",
+    "name_ja": "ジョン・ロック",
+    "name_en": "John Locke",
+    "category": "哲学者・思想家・活動家",
+    "era": "17世紀",
+    "title": "自由主義の父",
+    "personalities": {
+      "ei": 5,
+      "sn": 6,
+      "tf": 8,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 7,
+      "influence": 9,
+      "empathy": 7,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 8,
+      "visionary": 8,
+      "charisma": 7
+    },
+    "mbti_type": "ENTJ",
+    "description": "ジョン・ロックは、自然権思想を提唱し、名誉革命を正当化したイギリスの哲学者です。彼は、政府は人々の同意に基づいて成立すると主張し、自由主義の基礎を築きました。彼の思想は、アメリカ独立革命にも大きな影響を与えました。",
+    "quote": "政府は、国民の同意によってのみ正当化される。",
+    "suitable_careers": [
+      "弁護士",
+      "政治家",
+      "人権活動家"
+    ]
+  },
+  {
+    "id": "jean_jacques_rousseau",
+    "name_ja": "ジャン＝ジャック・ルソー",
+    "name_en": "Jean-Jacques Rousseau",
+    "category": "哲学者・思想家・活動家",
+    "era": "18世紀",
+    "title": "社会契約論の提唱者",
+    "personalities": {
+      "ei": 4,
+      "sn": 4,
+      "tf": 5,
+      "jp": 3
+    },
+    "talents": {
+      "strategic": 7,
+      "ideation": 10,
+      "execution": 5,
+      "influence": 9,
+      "empathy": 8,
+      "analysis": 7,
+      "adaptability": 6,
+      "resilience": 7,
+      "visionary": 9,
+      "charisma": 8
+    },
+    "mbti_type": "INFP",
+    "description": "ルソーは、自然状態における人間の善良さを信じ、社会契約論を提唱したフランスの哲学者です。彼は、一般意志に基づく民主主義を主張し、フランス革命に大きな影響を与えました。彼の思想は、教育論にも及んでいます。",
+    "quote": "人は生まれながらにして自由である。しかし、至る所で鎖に繋がれている。",
+    "suitable_careers": [
+      "社会福祉士",
+      "教育者",
+      "作家"
+    ]
+  },
+  {
+    "id": "immanuel_kant",
+    "name_ja": "イマヌエル・カント",
+    "name_en": "Immanuel Kant",
+    "category": "哲学者・思想家・活動家",
+    "era": "18世紀",
+    "title": "批判哲学の創始者",
+    "personalities": {
+      "ei": 1,
+      "sn": 5,
+      "tf": 10,
+      "jp": 9
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 8,
+      "execution": 6,
+      "influence": 7,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 5,
+      "resilience": 9,
+      "visionary": 7,
+      "charisma": 4
+    },
+    "mbti_type": "INTJ",
+    "description": "カントは、認識論と倫理学に大きな影響を与えたドイツの哲学者です。彼は、経験と理性の両方が認識に必要であると主張し、批判哲学を創始しました。彼の義務論的な倫理学は、現代倫理学の基礎となっています。",
+    "quote": "汝の意志の格率が常に普遍的法則となるように行為せよ。",
+    "suitable_careers": [
+      "哲学者",
+      "倫理コンサルタント",
+      "研究者"
+    ]
+  },
+  {
+    "id": "karl_marx",
+    "name_ja": "カール・マルクス",
+    "name_en": "Karl Marx",
+    "category": "哲学者・思想家・活動家",
+    "era": "19世紀",
+    "title": "共産主義の父",
+    "personalities": {
+      "ei": 6,
+      "sn": 3,
+      "tf": 8,
+      "jp": 3
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 10,
+      "execution": 6,
+      "influence": 10,
+      "empathy": 5,
+      "analysis": 9,
+      "adaptability": 6,
+      "resilience": 8,
+      "visionary": 9,
+      "charisma": 9
+    },
+    "mbti_type": "ENTP",
+    "description": "マルクスは、資本主義を批判し、共産主義社会の実現を訴えたドイツの思想家です。彼は、階級闘争の歴史的必然性を主張し、労働者階級の解放を目指しました。彼の思想は、20世紀の政治と社会に大きな影響を与えました。",
+    "quote": "万国の労働者よ、団結せよ!",
+    "suitable_careers": [
+      "社会運動家",
+      "経済学者",
+      "ジャーナリスト"
+    ]
+  },
+  {
+    "id": "friedrich_nietzsche",
+    "name_ja": "フリードリヒ・ニーチェ",
+    "name_en": "Friedrich Nietzsche",
+    "category": "哲学者・思想家・活動家",
+    "era": "19世紀",
+    "title": "ニヒリズムの克服者",
+    "personalities": {
+      "ei": 3,
+      "sn": 4,
+      "tf": 7,
+      "jp": 2
+    },
+    "talents": {
+      "strategic": 6,
+      "ideation": 10,
+      "execution": 4,
+      "influence": 9,
+      "empathy": 3,
+      "analysis": 8,
+      "adaptability": 7,
+      "resilience": 7,
+      "visionary": 9,
+      "charisma": 7
+    },
+    "mbti_type": "INFP",
+    "description": "ニーチェは、「神は死んだ」という言葉で知られるドイツの哲学者です。彼は、従来の道徳や価値観を批判し、力への意志や超人の概念を提唱しました。彼の思想は、実存主義やポスト構造主義に影響を与えました。",
+    "quote": "神は死んだ。",
+    "suitable_careers": [
+      "哲学者",
+      "作家",
+      "心理療法士"
+    ]
+  },
+  {
+    "id": "soren_kierkegaard",
+    "name_ja": "セーレン・キェルケゴール",
+    "name_en": "Søren Kierkegaard",
+    "category": "哲学者・思想家・活動家",
+    "era": "19世紀",
+    "title": "実存主義の先駆者",
+    "personalities": {
+      "ei": 2,
+      "sn": 2,
+      "tf": 6,
+      "jp": 5
+    },
+    "talents": {
+      "strategic": 5,
+      "ideation": 10,
+      "execution": 4,
+      "influence": 8,
+      "empathy": 7,
+      "analysis": 8,
+      "adaptability": 6,
+      "resilience": 8,
+      "visionary": 9,
+      "charisma": 7
+    },
+    "mbti_type": "INFP",
+    "description": "キェルケゴールは、実存主義の先駆者とされるデンマークの哲学者です。彼は、抽象的な思考よりも個人の主観的な経験や決断を重視しました。彼の思想は、現代の心理学や文学に大きな影響を与えました。",
+    "quote": "真理とは、私にとっての真理である。",
+    "suitable_careers": [
+      "カウンセラー",
+      "牧師",
+      "作家"
+    ]
+  },
+  {
+    "id": "simone_de_beauvoir",
+    "name_ja": "シモーヌ・ド・ボーヴォワール",
+    "name_en": "Simone de Beauvoir",
+    "category": "哲学者・思想家・活動家",
+    "era": "20世紀",
+    "title": "フェミニズムの旗手",
+    "personalities": {
+      "ei": 4,
+      "sn": 4,
+      "tf": 7,
+      "jp": 6
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 9,
+      "execution": 7,
+      "influence": 10,
+      "empathy": 8,
+      "analysis": 9,
+      "adaptability": 7,
+      "resilience": 9,
+      "visionary": 9,
+      "charisma": 8
+    },
+    "mbti_type": "INTJ",
+    "description": "ボーヴォワールは、『第二の性』を著し、フェミニズム運動に大きな影響を与えたフランスの哲学者です。彼女は、女性は生まれながらに女性であるのではなく、社会的に作られると主張しました。彼女の思想は、現代のジェンダー論に大きな影響を与えています。",
+    "quote": "人は女に生まれるのではない、女になるのだ。",
+    "suitable_careers": [
+      "フェミニスト活動家",
+      "ジェンダー論研究者",
+      "ジャーナリスト"
+    ]
+  },
+  {
+    "id": "martin_luther_king_jr",
+    "name_ja": "マーティン・ルーサー・キング・ジュニア",
+    "name_en": "Martin Luther King Jr.",
+    "category": "哲学者・思想家・活動家",
+    "era": "20世紀",
+    "title": "公民権運動の指導者",
+    "personalities": {
+      "ei": 8,
+      "sn": 5,
+      "tf": 6,
+      "jp": 7
+    },
+    "talents": {
+      "strategic": 9,
+      "ideation": 10,
+      "execution": 8,
+      "influence": 10,
+      "empathy": 9,
+      "analysis": 8,
+      "adaptability": 8,
+      "resilience": 10,
+      "visionary": 9,
+      "charisma": 10
+    },
+    "mbti_type": "ENFJ",
+    "description": "キング牧師は、非暴力主義を貫き、アメリカの公民権運動を指導した活動家です。彼は、人種差別撤廃を訴え、アメリカ社会の平等化に大きく貢献しました。彼の演説は、多くの人々に勇気と希望を与えました。",
+    "quote": "私には夢がある。",
+    "suitable_careers": [
+      "人権活動家",
+      "社会運動家",
+      "政治家"
+    ]
+  },
+  {
+    "id": "michel_foucault",
+    "name_ja": "ミシェル・フーコー",
+    "name_en": "Michel Foucault",
+    "category": "哲学者・思想家・活動家",
+    "era": "20世紀",
+    "title": "権力と知識の分析者",
+    "personalities": {
+      "ei": 2,
+      "sn": 5,
+      "tf": 9,
+      "jp": 4
+    },
+    "talents": {
+      "strategic": 8,
+      "ideation": 10,
+      "execution": 6,
+      "influence": 8,
+      "empathy": 4,
+      "analysis": 10,
+      "adaptability": 6,
+      "resilience": 8,
+      "visionary": 9,
+      "charisma": 6
+    },
+    "mbti_type": "INTP",
+    "description": "フーコーは、権力と知識の関係を分析し、社会の構造を明らかにしたフランスの哲学者です。彼は、狂気、刑罰、セクシュアリティなどのテーマに取り組みました。彼の思想は、ポスト構造主義やクィア理論に大きな影響を与えました。",
+    "quote": "どこに権力があるかではなく、権力はいかに作用しているかが重要だ。",
+    "suitable_careers": [
+      "社会学者",
+      "哲学者",
+      "文化人類学者"
+    ]
+  }
+]
